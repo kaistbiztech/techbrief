@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Daily Tech Brief OG Card</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --kaist-blue: #1f4899;
+    --kaist-blue-deep: #15326b;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1200px;
+    height: 630px;
+    background: var(--kaist-blue);
+    color: #fff;
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+  }
+  body {
+    padding: 44px 56px 48px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  body::before {
+    content: "";
+    position: absolute;
+    right: -150px;
+    bottom: -150px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  /* 상단 — 브랜드 (크게) */
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-bottom: 32px;
+  }
+  .brand-logo {
+    height: 100px;
+    width: auto;
+    flex-shrink: 0;
+    background: #fff;
+    padding: 12px 18px;
+    border-radius: 12px;
+  }
+  .brand-name {
+    font-size: 46px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #fff;
+    line-height: 1.05;
+  }
+
+  /* 중앙 — 제호 + 날짜 */
+  .title-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 28px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+  .masthead {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.035em;
+  }
+  .date-line {
+    font-family: 'Inter', 'Pretendard', sans-serif;
+    font-size: 54px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: rgba(255,255,255,0.95);
+    line-height: 1;
+  }
+  .date-line .dow {
+    margin-left: 12px;
+    color: rgba(255,255,255,0.65);
+    font-weight: 700;
+  }
+
+  /* 오늘의 키워드 — 평등한 톤, 박스가 남은 공간 다 채움 */
+  .keywords-block {
+    flex: 1;
+    background: var(--kaist-blue-deep);
+    border-radius: 16px;
+    padding: 20px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06);
+  }
+  .keywords-label {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.005em;
+    color: #fff;
+  }
+  .keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 22px;
+    align-content: center;
+  }
+  .keywords .kw {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.1;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+  <div class="brand">
+    <img class="brand-logo" id="brandLogo" alt="KCB" />
+    <div class="brand-name">KAIST 경영대학 테크 네트워크</div>
+  </div>
+
+  <div class="title-row">
+    <div class="masthead">데일리 테크 브리프</div>
+    <div class="date-line" id="dateLine">— <span class="dow"></span></div>
+  </div>
+
+  <div class="keywords-block">
+    <div class="keywords-label">오늘의 키워드</div>
+    <div class="keywords" id="keywordList"></div>
+  </div>
+
+<script>
+  function escHtml(s) {
+    return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function render(ed, logoDataUrl) {
+    if (logoDataUrl) document.getElementById('brandLogo').src = logoDataUrl;
+
+    const dateStr = ed.id.replaceAll('-', '.');
+    document.getElementById('dateLine').innerHTML =
+      `${dateStr} <span class="dow">${ed.dayOfWeek}요일</span>`;
+
+    // 각 카드(1~10번)의 첫 번째 키워드 1개씩 = 정확히 10개를 평등하게 노출
+    const cloud = document.getElementById('keywordList');
+    cloud.innerHTML = '';
+    ed.newsItems.forEach(it => {
+      const kw = (it.keywords || [])[0];
+      if (!kw) return;
+      const span = document.createElement('span');
+      span.className = 'kw';
+      span.textContent = kw;
+      cloud.appendChild(span);
+    });
+  }
+  window.renderEdition = render;
+</script>
+</body>
+</html>

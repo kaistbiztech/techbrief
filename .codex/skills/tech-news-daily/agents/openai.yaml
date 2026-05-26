@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tech News Daily"
+  short_description: "KAIST 데일리 테크 브리프 발행 자동화 스킬"
+  default_prompt: "Use $tech-news-daily to publish today's KAIST daily tech brief."
