@@ -6,205 +6,176 @@
   "coverage": {
     "from": "2026-05-23",
     "to": "2026-05-25",
-    "label": "5월 23~25일 (토·일·월)"
+    "label": "5월 23~25일(토~월)"
   },
   "newsItems": [
     {
       "order": 1,
-      "title": "OpenAI, 비공개 IPO 신청… 1,170조 밸류",
-      "summary": "오픈AI가 1,220억 달러(약 168조 원) 펀딩을 사상 최대 사적 펀딩으로 마감했습니다. 펀딩 후 회사 가치는 8,520억 달러(약 1,170조 원)이며, 아마존·엔비디아·소프트뱅크가 앵커 투자자로 참여한 구조입니다. IPO 주식 일부를 개인 투자자에게도 풀겠다고 밝혀, 토스·카카오페이 IPO 흐름에도 우호적 시그널입니다.",
-      "eventDate": "2026-05-25",
+      "title": "엔비디아, CPU 2천억달러 시장에 중국 포함",
+      "summary": "젠슨 황 엔비디아 최고경영자가 5월 23일 새 CPU 사업의 목표 시장 2천억달러(약 275조원)에 중국 수요도 포함한다고 밝혔습니다. 미국의 AI 반도체 규제가 이어지는 와중에도 범용 서버용 CPU와 AI 시스템 결합 수요는 중국에서 계속 남아 있다고 본 셈입니다. 한국 서버업계와 메모리 업체에는 GPU에 이어 CPU 결합형 AI 인프라 수요가 더 길게 이어질 가능성을 보여줍니다.",
+      "eventDate": "2026-05-23",
       "keywords": [
-        "OpenAI",
-        "IPO",
-        "1,170조 밸류"
+        "엔비디아",
+        "CPU 2천억달러",
+        "중국 수요"
       ],
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html"
-        },
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/"
+          "name": "Reuters",
+          "url": "https://www.streetinsider.com/Reuters/Nvidia%2Bsays%2Bits%2Bforecast%2Bfor%2B%24200%2Bbillion%2BCPU%2Bmarket%2Bincludes%2BChina/26543505.html"
         }
       ]
     },
     {
       "order": 2,
-      "title": "엔비디아 Q1 호실적, 다음 분기 125조 가이던스",
-      "summary": "엔비디아 데이터센터 매출이 전년 대비 거의 2배로 늘었고, 다음 분기 매출을 910억 달러(약 125조 원)로 가이던스했습니다. 젠슨 황 CEO는 \"AI 에이전트 시대가 시작됐다\"고 선언하며 앤트로픽을 핵심 신규 고객으로 명시했습니다. 분기 100조 원대 가이던스는 한국 HBM 공급망(SK·삼성)에 그대로 추가 주문으로 직결됩니다.",
-      "eventDate": "2026-05-25",
+      "title": "구글 클라우드, AI 보안 전환기 23분 허점 노출",
+      "summary": "테크크런치는 5월 24일 구글 클라우드가 AI 보안을 경영 이슈로 끌어올리고 있지만 제미나이 API 키 회수 지연 문제를 아직 안고 있다고 전했습니다. 아이키도 조사에 따르면 탈취된 키를 지워도 최대 23분 동안 호출이 살아 있어 개발자에게 1만달러 안팎의 과금 피해가 발생했습니다. 국내 기업도 에이전트 도입 속도만 볼 것이 아니라 키 관리와 결제 한도 통제를 같이 설계해야 한다는 뜻입니다.",
+      "eventDate": "2026-05-24",
       "keywords": [
-        "엔비디아",
-        "125조 가이던스",
-        "AI 에이전트 시대"
+        "구글 클라우드",
+        "제미나이 API",
+        "23분 허점"
       ],
       "sources": [
         {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html"
-        },
-        {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/05/22/the-tech-download-what-you-might-have-missed-in-nvidias-earnings.html"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/"
         }
       ]
     },
     {
       "order": 3,
-      "title": "AMD, HBM4에 삼성 지명… SK 70% 균열",
-      "summary": "AMD가 다음 세대 AI 가속기에 들어가는 메모리(HBM4) 주공급사로 삼성전자를 지명했습니다. 삼성은 올해 2월 업계에서 가장 먼저 HBM4 양산 출하를 시작한 카드를 들고 있어 추격 동력을 한 번에 얻었습니다. 한국 메모리 영업이익은 올해 204조 원이 예상되며, 이번 지명은 HBM 양강 구도의 첫 신호입니다.",
-      "eventDate": "2026-05-25",
+      "title": "Peec, ARR 1천만달러로 AI검색 마케팅 급부상",
+      "summary": "베를린 스타트업 피크AI는 5월 23일 기준 연환산매출 1천만달러(약 138억원)를 넘기며 출시 10개월 만의 400만달러(약 55억원) 수준에서 두 배 넘게 커졌습니다. 이 회사는 브랜드가 챗GPT 같은 AI 검색에서 얼마나 자주 노출되는지 측정하고 답변 가시성을 높이는 도구를 판매합니다. 검색광고 이후의 예산이 AI 답변 최적화로 옮겨가면 국내 마케팅 SaaS와 커머스 플랫폼도 새 지표 경쟁에 들어갈 가능성이 큽니다.",
+      "eventDate": "2026-05-23",
       "keywords": [
-        "AMD",
-        "HBM4",
-        "삼성전자",
-        "204조"
+        "Peec",
+        "ARR 1천만달러",
+        "AI 검색 마케팅"
       ],
       "sources": [
         {
-          "name": "글로벌이코노믹",
-          "url": "https://www.g-enews.com/article/Global-Biz/2026/05/202605080644316380fbbec65dfb_1"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/23/peec-one-of-berlins-rising-startups-more-than-doubled-annualized-revenue-in-months-to-10m-sources-say/"
         }
       ]
     },
     {
       "order": 4,
-      "title": "간편결제 3사 연간 100조 돌파… 자체 결제 성장",
-      "summary": "네이버페이·카카오페이·토스의 연간 거래액이 처음으로 100조 원을 돌파한 것으로 5월 22일 집계됐습니다. 토스의 얼굴인식 결제 '페이스페이' 사용자가 480만 명으로 늘었고, 가맹점도 33만 곳으로 확장됐습니다. 카드 연동을 넘어 자체 결제 인프라 성장이라는 점에서 한국 핀테크의 새 단계로 평가됩니다.",
-      "eventDate": "2026-05-22",
+      "title": "페라리·IBM, F1 앱 참여 62% 키운 AI 팬전략",
+      "summary": "IBM과 페라리는 5월 23일 AI로 개편한 페라리 팬 앱의 레이스 주말 참여도가 62% 늘었다고 밝혔습니다. 경기당 수백만 개 데이터 포인트를 스토리와 예측, 질문응답으로 바꿔 팬이 앱 안에 더 오래 머물게 하는 구조입니다. 국내 스포츠와 엔터테인먼트 기업에도 생성형 AI가 단순 챗봇보다 팬 체류시간과 결제 전환을 끌어올리는 도구로 쓰일 수 있음을 보여줍니다.",
+      "eventDate": "2026-05-23",
       "keywords": [
-        "간편결제 100조",
-        "토스 페이스페이",
-        "한국 핀테크"
+        "페라리",
+        "IBM",
+        "앱 참여 62%"
       ],
       "sources": [
         {
-          "name": "핀테크투데이",
-          "url": "http://www.fintechtoday.co.kr/news/articleView.html?idxno=2750"
-        },
-        {
-          "name": "핀테크투데이",
-          "url": "http://www.fintechtoday.co.kr/news/articleView.html?idxno=2746"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/"
         }
       ]
     },
     {
       "order": 5,
-      "title": "앤트로픽 Claude Opus 4.7 + 멀티에이전트",
-      "summary": "앤트로픽이 5월 21일 새 모델 Claude Opus 4.7과 멀티에이전트 기능을 공개했습니다. 한 메인 에이전트가 작업을 쪼개 여러 전문 에이전트에 분배하고 공유 파일시스템에서 병렬로 일합니다. 디자인 자동화 'Claude Design'까지 함께 나와, 한국 SaaS·디자인 업계에 새 경쟁 압력이 됩니다.",
-      "eventDate": "2026-05-25",
+      "title": "델 AI 팩토리, 온프레미스 고객 5천곳 넘어",
+      "summary": "지디넷코리아는 5월 24일 델이 챗GPT와 제미나이, 그록까지 품은 온프레미스 중심 AI 팩토리 전략을 확대했다고 전했습니다. 델은 이미 5천곳 이상의 구축 경험을 확보했고 기업 데이터 주권과 보안 요구 때문에 프라이빗 인프라 수요가 더 커질 것으로 봤습니다. 국내 기업 IT 투자도 공개형 API 실험에서 사내 데이터센터와 하이브리드 운영 체계로 무게중심이 이동할 가능성이 높습니다.",
+      "eventDate": "2026-05-24",
       "keywords": [
-        "Claude Opus 4.7",
-        "멀티에이전트",
-        "Claude Design"
+        "델 AI 팩토리",
+        "온프레미스 5천곳",
+        "하이브리드 인프라"
       ],
       "sources": [
         {
-          "name": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
-        },
-        {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/05/19/anthropic-enhances-claude-managed-agents-with-two-new-privacy-and-security-features/"
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260524071905"
         }
       ]
     },
     {
       "order": 6,
-      "title": "Salesforce '에이전트 코워커' 베타 출시",
-      "summary": "세일즈포스가 'Agentforce Coworker' 베타를 5월 22일 공개하며 AI 에이전트를 사내 협업 도구에 직접 심었습니다. 영업·고객지원 담당자가 검색창에서 AI에게 일을 시키면 CRM 데이터를 가져오고 실행까지 대신해 줍니다. 한국 기업이 쓰는 세일즈포스 사용자에게도 곧 풀릴 기능이라, 영업·CS 조직의 업무 방식 변화가 예상됩니다.",
-      "eventDate": "2026-05-22",
+      "title": "금융권 망분리 완화, AI 보안체계 도입 가속",
+      "summary": "전자신문은 5월 24일 금융위원회가 고성능 AI 보안 대응 방안과 함께 금융권 망분리 규제 완화 방향을 제시했다고 보도했습니다. 기존 물리적 차단이 외부 공격을 줄이는 데는 효과적이었지만 AI 기반 보안과 상담, 심사, 내부통제 도입에는 제약이 됐다는 판단입니다. 은행과 카드사가 생성형 AI를 업무 핵심에 넣을 수 있는 길이 넓어지면 국내 핀테크와 금융 SaaS 수요도 함께 커질 수 있습니다.",
+      "eventDate": "2026-05-24",
       "keywords": [
-        "Salesforce",
-        "Agentforce Coworker",
-        "엔터프라이즈 AI"
+        "망분리 완화",
+        "금융 AI 보안",
+        "금융위원회"
       ],
       "sources": [
         {
-          "name": "TechTimes",
-          "url": "https://www.techtimes.com/articles/317075/20260524/ai-agent-business-models-split-four-ways-open-source-infrastructure-token-distribution-saas.htm"
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20260522000097"
         }
       ]
     },
     {
       "order": 7,
-      "title": "앤트로픽, 밀라노 사무소 개설… 유럽 매출 9배 성장",
-      "summary": "앤트로픽이 5월 말 이탈리아 밀라노에 신규 사무소를 열어 유럽 거점이 여섯 곳으로 늘었습니다. 회사는 유럽·중동·아프리카 권역의 환산 매출이 1년 새 9배, 대형 기업 고객은 10배 늘었다고 밝혔습니다. 한국 엔터프라이즈 시장에도 앤트로픽 진출 시점이 앞당겨질 가능성이 거론됩니다.",
-      "eventDate": "2026-05-25",
+      "title": "SynthID 1000억건, AI 워터마크 표준전 본격화",
+      "summary": "지디넷코리아 칼럼은 5월 23일 구글 딥마인드의 신스아이디가 이미지와 영상 1000억건, 오디오 6만년 분량에 적용됐다고 짚었습니다. 오픈AI와 엔비디아, 카카오, 일레븐랩스까지 채택에 나서며 워터마크 기술이 기능 경쟁을 넘어 신뢰 인프라 표준 경쟁으로 번지고 있습니다. 국내 플랫폼과 미디어 기업도 생성 콘텐츠 식별 규칙을 남이 정하기 전에 어떤 표준을 따를지 서둘러 정해야 하는 국면입니다.",
+      "eventDate": "2026-05-23",
       "keywords": [
-        "앤트로픽 밀라노",
-        "유럽 매출 9배",
-        "EMEA 확장"
+        "SynthID",
+        "1000억건",
+        "워터마크 표준"
       ],
       "sources": [
         {
-          "name": "Global Banking & Finance Review",
-          "url": "https://www.globalbankingandfinance.com/anthropic-open-milan-office-expanding-push-europe/"
-        },
-        {
-          "name": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-open-milan-office-expanding-095020601.html"
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260523150157"
         }
       ]
     },
     {
       "order": 8,
-      "title": "트럼프, 엔비디아 중국 수출 칩에 25% 관세 부과",
-      "summary": "트럼프 행정부가 엔비디아의 중국 수출 AI 칩 관세를 15%에서 25%로 올린 것이 확인되었습니다. 막아뒀던 H200 칩 판매를 풀어주는 대가로 수출액 4분의 1을 미국 정부가 가져가는 구조입니다. 한국 메모리에도 비슷한 관세가 적용될지가 다음 모니터링 포인트입니다.",
+      "title": "국방 AX 협의회 출범, 18개 스타트업 결집",
+      "summary": "지디넷코리아는 5월 25일 민간 주도 국방 AX 협의회가 출범하며 18개 디펜스테크와 AI 스타트업이 한 축으로 묶였다고 전했습니다. 정부가 첫 고객이 되는 구조를 만들고 2030년까지 방산 스타트업 100개사와 벤처천억기업 30개사를 키우겠다는 정책과도 맞물립니다. 한국 AI 기업에는 공공 조달이 실증 무대가 되고 물리 AI와 영상 분석, 국방 데이터 사업이 새 성장축으로 열릴 수 있습니다.",
       "eventDate": "2026-05-25",
       "keywords": [
-        "트럼프 25% 관세",
-        "엔비디아 H200",
-        "미·중 칩 협상"
+        "국방 AX",
+        "18개 스타트업",
+        "디펜스테크"
       ],
       "sources": [
         {
-          "name": "IMD",
-          "url": "https://www.imd.org/future-readiness-indicator/home/technology-2026/"
-        },
-        {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/graphics/2026-investment-outlooks/"
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260525110342"
         }
       ]
     },
     {
       "order": 9,
-      "title": "과기정통부, 연내 국산 무료 AI 서비스 공모 임박",
-      "summary": "과학기술정보통신부가 누구나 무료로 쓸 수 있는 국산 AI 서비스 사업자를 곧 공식 공모합니다. 챗GPT·제미나이 의존도를 낮추고 연내 출시를 목표로 한다는 정책 의도로 알려졌습니다. 네이버 클로바, 카카오 카나나, 업스테이지 솔라에 정부 보장 사용자 풀이 열리는 기회입니다.",
-      "eventDate": "2026-05-25",
+      "title": "에브리, 100개 AI 코딩에이전트 공장 운영법 공개",
+      "summary": "에브리는 5월 24일 업데이트한 뉴스레터에서 가스시티 같은 도구로 100개 안팎의 코딩 에이전트를 병렬 운영하는 실험을 소개했습니다. 사람 한 명이 오래 붙드는 방식보다 시장과 작업자를 분리해 짧은 문맥의 작업자를 다수 굴리는 편이 앞으로의 소프트웨어 공장 모델이 될 수 있다는 주장입니다. 국내 개발조직에도 단일 코파일럿보다 다중 에이전트 오케스트레이션과 검수 체계가 경쟁력이 될 가능성을 시사합니다.",
+      "eventDate": "2026-05-24",
       "keywords": [
-        "과기정통부",
-        "국산 무료 AI",
-        "클로바·카나나·솔라"
+        "Every",
+        "100개 에이전트",
+        "Gas City"
       ],
       "sources": [
         {
-          "name": "SPTA Times Korea",
-          "url": "https://www.sptatimeskorea.com/post/제20260525-ti-01호-2026년-5월-25일-글로벌-반도체-산업-관련-주요-뉴스-요약"
+          "name": "Every",
+          "url": "https://every.to/context-window/inside-the-100-agent-software-factory"
         }
       ]
     },
     {
       "order": 10,
-      "title": "깃허브 공격 '메갈로돈', 5,561개 저장소 감염",
-      "summary": "5월 18일 발견된 깃허브 공급망 공격 '메갈로돈'이 단 6시간 만에 5,561개 저장소를 감염시켰습니다. 봇이 깃허브 액션 워크플로(빌드 자동화)를 몰래 고쳐 빌드 단계에서 클라우드 자격 증명을 빼냈습니다. 국내 핀테크·게임사 다수가 깃허브 액션을 쓰고 있어 무결성 점검과 비밀 키 교체가 급합니다.",
-      "eventDate": "2026-05-25",
+      "title": "슈퍼마이크로 밀수 후폭풍, 대만·엔비디아 통제 강화",
+      "summary": "톰스하드웨어는 5월 24일 슈퍼마이크로의 25억달러(약 3조4천억원) 규모 AI 서버 밀수 사건 뒤 젠슨 황이 수출통제 준수를 더 엄격히 요구했다고 전했습니다. 대만 검찰은 허위 서류로 중국과 홍콩, 마카오에 엔비디아 칩 탑재 서버를 보낸 정황을 추적하며 단속 수위를 높이고 있습니다. 한국 반도체와 서버업계도 중국향 매출보다 최종 수요처 검증과 물류 통제 역량이 더 중요한 경쟁요소가 될 수 있습니다.",
+      "eventDate": "2026-05-24",
       "keywords": [
-        "메갈로돈",
-        "깃허브 공급망",
-        "5,561개 감염"
+        "슈퍼마이크로",
+        "25억달러 밀수",
+        "수출통제"
       ],
       "sources": [
         {
-          "name": "The Hacker News",
-          "url": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html"
-        },
-        {
-          "name": "Cybersecurity Dive",
-          "url": "https://www.cybersecuritydive.com/news/github-hacked-repository-data/820722/"
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/jensen-huang-urges-super-micro-to-tighten-compliance"
         }
       ]
     }
