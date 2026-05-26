@@ -11,181 +11,122 @@
   "newsItems": [
     {
       "order": 1,
-      "title": "한국 AI 반도체, 코스피 8000 시나리오 부상",
-      "summary": "한국 증권가가 5월 26일 AI 반도체 사이클을 근거로 코스피 장기 목표 8000 시나리오를 다시 제시했습니다. 삼성전자와 SK하이닉스가 HBM과 서버 메모리 수요의 직접 수혜주로 거론되며 반도체 영업이익 개선 기대가 커졌습니다. KAIST MBA 독자에게는 AI 인프라 투자 붐이 한국 자본시장과 포트폴리오 전략으로 전이되는 경로를 점검할 기회입니다.",
+      "title": "Forbes, AI 코딩 도구 20~30% 비용 논쟁",
+      "summary": "Forbes는 5월 26일 엔지니어들이 선호하는 AI 코딩 도구가 2026년 개발 예산을 빠르게 흔들고 있다고 분석했습니다. 일부 저장소에서 AI가 작성하는 코드 비중이 20~30%로 거론되는 가운데, Microsoft와 Uber 사례를 둘러싸고 Claude Code와 GitHub Copilot CLI 비용 논쟁이 개발자 커뮤니티에서 확산됐습니다. 기업은 AI 코딩 도구를 좌석 단가가 아니라 모델 사용량, 검수 비용, 표준 도구 통제로 관리해야 하는 단계에 들어섰습니다.",
       "eventDate": "2026-05-26",
       "keywords": [
-        "한국 AI 반도체",
-        "코스피 8000",
-        "삼성전자 SK하이닉스"
+        "Forbes",
+        "AI 코딩 도구",
+        "20~30% 코드"
       ],
       "sources": [
         {
-          "name": "파이낸셜뉴스",
-          "url": "https://www.fnnews.com/news/202605260834290290"
+          "name": "Forbes",
+          "url": "https://www.forbes.com/sites/janakirammsv/2026/05/26/why-your-engineers-favorite-ai-tools-are-wrecking-your-2026-budget/"
         },
         {
-          "name": "뉴스투데이",
-          "url": "https://www.news2day.co.kr/article/20260526500022"
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1to31ox/microsoft_and_uber_say_ai_coding_tools_are/"
         }
       ]
     },
     {
       "order": 2,
-      "title": "엔비디아, 한국 6개 그룹과 AI 동맹 예고",
-      "summary": "엔비디아가 5월 26일 컴퓨텍스 후속 일정으로 삼성, SK, 현대차, LG, 두산, 네이버가 참여하는 한국 파트너 행사를 예고했습니다. 젠슨 황 CEO 방한 가능성과 함께 AI 반도체, 로봇, 데이터센터 협력 의제가 동시에 부각됐습니다. 국내 대기업의 AI 전략이 단순 구매를 넘어 엔비디아 생태계 안의 공동 사업과 공급망 협상으로 옮겨가고 있습니다.",
+      "title": "Product Hunt, AI 코딩 에이전트 562개 비교",
+      "summary": "Product Hunt는 5월 26일 AI 코딩 에이전트 카테고리에서 562개 제품을 비교하며 Cursor, Claude Code, Lovable, Kiro 같은 도구를 한 흐름으로 묶었습니다. 설명은 IDE 내장형 에이전트, 터미널 우선 자동화, 프롬프트 기반 앱 빌더로 시장이 갈라지고 있다고 정리했습니다. 개발조직은 특정 모델보다 코드베이스 이해, 테스트 실행, 멀티파일 수정, 배포 연결까지 포함한 워크플로 선택을 경쟁력으로 보게 됩니다.",
       "eventDate": "2026-05-26",
       "keywords": [
-        "엔비디아 한국",
-        "6개 그룹",
-        "AI 동맹"
+        "Product Hunt",
+        "AI 코딩 에이전트",
+        "562개 제품"
       ],
       "sources": [
         {
-          "name": "뉴스1",
-          "url": "https://www.news1.kr/industry/general-industry/5693390"
-        },
-        {
-          "name": "이데일리",
-          "url": "https://www.edaily.co.kr/News/Read?newsId=02400966642172856"
+          "name": "Product Hunt",
+          "url": "https://www.producthunt.com/categories/ai-coding-agents"
         }
       ]
     },
     {
       "order": 3,
-      "title": "카카오 노조, AI 전환 속 5개 법인 쟁의",
-      "summary": "카카오 노조가 5월 26일 카카오엔터테인먼트 등 5개 법인의 임금 교섭 결렬과 쟁의 절차를 공개했습니다. 카카오는 하반기 AI 에이전트 서비스 출시를 준비하고 있지만 계열사 구조조정과 인력 배치 갈등이 동시에 커졌습니다. 한국 플랫폼 기업의 AI 전환은 기술 로드맵만이 아니라 조직 신뢰와 비용 구조를 함께 다뤄야 한다는 점을 보여줍니다.",
+      "title": "MCP Market, Claude Code 메모리 10위권 부상",
+      "summary": "MCP Market은 5월 26일 일간 인기 MCP 서버 목록에서 FunASR, Agentkey, Claude Mem Lite, AICTX 같은 에이전트 보조 도구를 상위권에 올렸습니다. Claude Mem Lite는 Claude Code의 작업 결정과 버그 수정 맥락을 장기 기억으로 남기는 서버로 소개됐고, AICTX는 에이전트 작업 연속성을 보존하는 도구로 분류됐습니다. MCP 생태계의 관심이 단순 연결에서 기억, 보안, 작업 맥락 유지로 옮겨가면서 국내 개발팀도 에이전트 운영 표준을 고민해야 합니다.",
       "eventDate": "2026-05-26",
       "keywords": [
-        "카카오 노조",
-        "5개 법인",
-        "AI 에이전트"
+        "MCP Market",
+        "Claude Code",
+        "10위권"
       ],
       "sources": [
         {
-          "name": "뉴시스",
-          "url": "https://www.newsis.com/view/NISX20260526_0003644997"
-        },
-        {
-          "name": "머니투데이",
-          "url": "https://news.mt.co.kr/mtview.php?no=2026052615061737490"
+          "name": "MCP Market",
+          "url": "https://mcpmarket.com/daily/top-mcp-server-list-may-26-2026"
         }
       ]
     },
     {
       "order": 4,
-      "title": "네이버클라우드, 부산 스타트업 100곳 AI 교육",
-      "summary": "네이버클라우드가 5월 26일 부산창조경제혁신센터와 지역 스타트업 100곳을 대상으로 생성형 AI 활용 교육을 시작했습니다. 교육은 하이퍼클로바X와 클라우드 도구를 사업 기획, 마케팅, 고객 응대에 적용하는 실습형 프로그램으로 구성됐습니다. 지역 창업 생태계가 대형 플랫폼의 AI 인프라를 흡수하는 사례라 한국 SaaS와 공공 창업 지원 모델에 참고점이 됩니다.",
+      "title": "Meta, 광고 MCP 서버 1호 전략 확장",
+      "summary": "Exchange4Media는 5월 26일 Meta가 광고 계정에 읽기와 쓰기 권한을 제공하는 MCP 서버를 내놓으며 AI 네이티브 광고 인프라로 이동하고 있다고 분석했습니다. ChatGPT와 Claude 같은 AI 도구가 자연어로 캠페인을 관리할 수 있게 되면 광고 운영의 효율은 높아지지만 투명성과 통제력 논쟁도 커집니다. 한국 브랜드와 에이전시는 생성형 AI가 광고 집행 계정에 직접 연결되는 상황에서 권한 관리와 성과 검증 체계를 다시 설계해야 합니다.",
       "eventDate": "2026-05-26",
       "keywords": [
-        "네이버클라우드",
-        "부산 스타트업 100곳",
-        "하이퍼클로바X"
+        "Meta",
+        "광고 MCP",
+        "1호 서버"
       ],
       "sources": [
         {
-          "name": "매일경제",
-          "url": "https://stock.mk.co.kr/news/view/156051"
-        },
-        {
-          "name": "연합뉴스",
-          "url": "https://www.yna.co.kr/view/AKR20260526058300051"
+          "name": "Exchange4Media",
+          "url": "https://www.exchange4media.com/digital-news/behind-metas-ai-ad-push-lies-a-bigger-shift-in-platform-power-154936.html"
         }
       ]
     },
     {
       "order": 5,
-      "title": "엔닷라이트, 미국 로봇AI 6000명 무대 진출",
-      "summary": "엔닷라이트가 5월 26일 미국 시애틀 로보틱스 서밋에서 텍스트 명령만으로 3분 안에 로봇 시뮬레이션 환경을 만드는 기술을 시연한다고 밝혔습니다. 행사에는 글로벌 로봇 기업과 투자자 약 6000명이 모이는 만큼 한국 스타트업의 피지컬 AI 기술 검증 무대가 됩니다. 제조와 물류 자동화를 고민하는 국내 기업에는 로봇 학습 데이터와 시뮬레이션 소프트웨어가 새 병목이 될 수 있다는 신호입니다.",
+      "title": "구글·네이버, AI 검색 25년 문법 재편",
+      "summary": "파이낸셜뉴스는 5월 26일 구글과 네이버가 생성형 AI 검색 위협에 맞서 자사 데이터베이스와 에이전틱 AI 경험을 앞세우고 있다고 보도했습니다. 구글은 25년 만의 검색창 개편과 AI Mode 확장을 추진하고, 네이버는 AI탭과 멤버십 기반 검색 경험으로 방어선을 구축하고 있습니다. 국내 커머스, 미디어, SaaS 기업은 기존 SEO와 검색광고 지표를 넘어 AI 답변에 인용되는 콘텐츠 전략을 별도로 운영해야 합니다.",
       "eventDate": "2026-05-26",
       "keywords": [
-        "엔닷라이트",
-        "로봇AI 6000명",
-        "3분 시뮬레이션"
+        "구글·네이버",
+        "AI 검색",
+        "25년 개편"
       ],
       "sources": [
         {
-          "name": "전자신문",
-          "url": "https://www.etnews.com/20260526000169"
+          "name": "파이낸셜뉴스",
+          "url": "https://www.fnnews.com/ampNews/202605260607278294"
+        },
+        {
+          "name": "TechRepublic",
+          "url": "https://www.techrepublic.com/article/google-search-ai-features-publisher-visibility/"
         }
       ]
     },
     {
       "order": 6,
-      "title": "Stord, 물류 AI에 2억5000만달러 유치",
-      "summary": "Stord가 5월 26일 2억5000만달러, 약 3450억원 규모의 투자 라운드를 발표하며 기업가치 30억달러, 약 4조1000억원을 인정받았습니다. 회사는 창고, 운송, 주문 처리 데이터를 묶어 전자상거래 브랜드의 물류 의사결정을 자동화하는 AI 플랫폼을 강조했습니다. 한국 커머스와 3PL 기업에는 배송비 절감보다 재고, 풀필먼트, 고객경험을 통합 최적화하는 소프트웨어 경쟁이 더 중요해질 수 있습니다.",
+      "title": "애플, WWDC 2026 앞두고 GenAI 도메인 포착",
+      "summary": "Business Standard는 5월 26일 애플이 WWDC 2026을 앞두고 genai.apple.com 도메인을 준비한 정황이 포착됐다고 전했습니다. 보도는 6월 8일부터 12일까지 열리는 WWDC에서 Siri 개편, 온디바이스 생성형 AI, 개발자 도구가 더 분명한 브랜드로 제시될 가능성을 짚었습니다. 애플 생태계에 의존하는 한국 앱 개발사와 디바이스 기업은 온디바이스 AI API와 개인정보 보호 정책 변화에 맞춰 제품 로드맵을 조정해야 합니다.",
       "eventDate": "2026-05-26",
       "keywords": [
-        "Stord",
-        "2억5000만달러",
-        "30억달러 기업가치"
+        "애플",
+        "WWDC 2026",
+        "GenAI 도메인"
       ],
       "sources": [
         {
-          "name": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/stord-raises-250-million-at-3-billion-valuation-to-transform-commerce-302465368.html"
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/amp/technology/tech-news/apple-s-gen-ai-website-points-to-siri-overhaul-ahead-of-wwdc-2026-report-126052600457_1.html"
+        },
+        {
+          "name": "MacDailyNews",
+          "url": "https://macdailynews.com/2026/05/26/apples-stealth-move-signals-major-generative-ai-push-at-wwdc-2026/"
         }
       ]
     },
     {
       "order": 7,
-      "title": "TeraWulf, AI 데이터센터 1GW 전력권 확보",
-      "summary": "TeraWulf가 5월 26일 펜실베이니아 전력 부지를 활용해 최대 1GW 규모의 AI 데이터센터 전력 권리를 확보했다고 발표했습니다. 회사는 비트코인 채굴 인프라에서 고성능 컴퓨팅과 AI 클라우드로 수익 모델을 전환하겠다는 전략을 분명히 했습니다. 전력 확보가 AI 인프라의 핵심 병목으로 떠오르면서 한국 데이터센터 사업자도 입지와 장기 전력계약을 자본 전략으로 다뤄야 합니다.",
-      "eventDate": "2026-05-26",
-      "keywords": [
-        "TeraWulf",
-        "1GW 전력",
-        "AI 데이터센터"
-      ],
-      "sources": [
-        {
-          "name": "PR Newswire",
-          "url": "https://www.prnewswire.com/news-releases/terawulf-secures-exclusive-rights-to-develop-1-gw-of-ai-and-hpc-data-center-capacity-at-the-nemo-site-in-pennsylvania-302466097.html"
-        }
-      ]
-    },
-    {
-      "order": 8,
-      "title": "Pony AI, 로보택시 매출 목표 3.5배 상향",
-      "summary": "Pony AI가 5월 26일 올해 로보택시 매출 목표를 기존보다 3.5배 높이고 연말까지 3500대 이상 차량 운영을 목표로 제시했습니다. 회사는 중국 주요 도시의 무인 주행 허가 확대와 플랫폼 운행 데이터를 성장 근거로 들었습니다. 현대차와 모빌리티 스타트업 입장에서는 자율주행 상용화 경쟁이 기술 데모에서 면허, 차량 규모, 단위경제성 경쟁으로 이동하고 있습니다.",
-      "eventDate": "2026-05-26",
-      "keywords": [
-        "Pony AI",
-        "3.5배 목표",
-        "3500대 로보택시"
-      ],
-      "sources": [
-        {
-          "name": "CnEVPost",
-          "url": "https://cnevpost.com/2026/05/26/pony-ai-raises-2026-robotaxi-revenue-target-3-5-fold/"
-        }
-      ]
-    },
-    {
-      "order": 9,
-      "title": "구글 검색, AI 모드 25년 SEO 문법 흔들어",
-      "summary": "구글이 5월 26일부터 검색 결과의 AI 모드와 에이전트형 답변 확장을 적용하며 전통적인 10개 링크 중심 검색 경험을 더 크게 바꾸기 시작했습니다. 업계 분석은 25년 넘게 이어진 SEO와 검색광고 문법이 브랜드 노출, 클릭률, 전환 측정 방식까지 다시 설계하게 만들 수 있다고 봅니다. 한국 커머스와 미디어 기업은 네이버와 구글 양쪽에서 AI 답변에 인용되는 콘텐츠 전략을 별도 지표로 관리해야 합니다.",
-      "eventDate": "2026-05-26",
-      "keywords": [
-        "구글 AI 모드",
-        "25년 SEO",
-        "검색 전환"
-      ],
-      "sources": [
-        {
-          "name": "TechRepublic",
-          "url": "https://www.techrepublic.com/article/news-google-io-2026-ai-mode-search/"
-        },
-        {
-          "name": "Google",
-          "url": "https://blog.google/products/search/google-search-ai-mode-update-io-2026/"
-        }
-      ]
-    },
-    {
-      "order": 10,
-      "title": "The Information, OpenAI 광고 10배 확장론 제기",
-      "summary": "The Information은 5월 26일 OpenAI가 소상공인 광고 상품에서 출발해 더 큰 광고 사업으로 확장할 가능성을 분석했습니다. 챗GPT가 검색, 추천, 결제 흐름을 흡수하면 광고 단가와 타기팅 방식이 기존 검색광고와 달라질 수 있다는 관점입니다. 한국 플랫폼과 브랜드에는 생성형 AI 안에서 발견과 구매가 이어질 때 광고 예산과 데이터 제휴를 어떻게 재배치할지가 토론거리입니다.",
+      "title": "The Information, OpenAI 광고 10배 확장론",
+      "summary": "The Information은 5월 26일 OpenAI가 소상공인 광고 상품에서 시작해 더 큰 광고 사업으로 확장할 가능성을 분석했습니다. 챗GPT가 검색, 추천, 결제 흐름을 흡수하면 광고 단가와 타기팅 방식이 기존 검색광고와 달라질 수 있다는 관점입니다. 한국 플랫폼과 브랜드에는 생성형 AI 안에서 발견과 구매가 이어질 때 광고 예산과 데이터 제휴를 어떻게 재배치할지가 핵심 의제가 됩니다.",
       "eventDate": "2026-05-26",
       "keywords": [
         "The Information",
@@ -196,6 +137,65 @@
         {
           "name": "The Information",
           "url": "https://www.theinformation.com/articles/openais-ad-business-could-start-small-scale-fast"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "엔비디아, 한국 6개 그룹과 AI 동맹",
+      "summary": "이데일리는 5월 26일 젠슨 황 엔비디아 CEO가 컴퓨텍스 2026 기간 삼성, SK, 현대차, LG, 두산, 네이버 등 한국 주요 기업과 만나는 파트너 행사를 준비한다고 보도했습니다. 행사 의제는 AI칩, 자율주행, 로봇, 피지컬 AI, 클라우드 협력으로 넓게 잡혀 있습니다. 국내 대기업의 AI 전략은 GPU 구매를 넘어 엔비디아 생태계 안에서 어떤 공동 제품과 공급망 지위를 확보하느냐의 문제로 바뀌고 있습니다.",
+      "eventDate": "2026-05-26",
+      "keywords": [
+        "엔비디아",
+        "한국 6개 그룹",
+        "AI 동맹"
+      ],
+      "sources": [
+        {
+          "name": "뉴스1",
+          "url": "https://www.news1.kr/industry/general-industry/5693390"
+        },
+        {
+          "name": "이데일리",
+          "url": "https://tv.edaily.co.kr/News/NewsRead?Kind=257&NewsId=03981926645452856"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "삼성전자, 6월 외부 AI 3종 업무 도입",
+      "summary": "한국경제는 5월 26일 삼성전자가 6월부터 DX부문 임직원 업무에 챗GPT, 제미나이, 클로드 등 외부 생성형 AI 후보를 공식 도입하는 절차를 밟고 있다고 보도했습니다. 회사는 임직원 2500명을 대상으로 현장 검증을 진행했고 보안 교육 이수자에게 사용 권한을 부여하는 통제 장치도 준비하고 있습니다. 대기업 AI 도입이 자체 모델 고도화와 외부 모델 표준화의 병행 구조로 굳어지면 국내 개발조직의 보안·생산성 운영 기준도 빠르게 바뀔 수 있습니다.",
+      "eventDate": "2026-05-26",
+      "keywords": [
+        "삼성전자",
+        "외부 AI 3종",
+        "2500명 검증"
+      ],
+      "sources": [
+        {
+          "name": "한국경제",
+          "url": "https://markets.hankyung.com/stock/373490"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "KAIST 파바스, CVPR 상위 1% 음향 AI",
+      "summary": "KAIST와 POSTECH, 소니 AI 공동연구진은 5월 26일 영상 속 물리적 상황을 이해해 현실감 있는 소리를 생성하는 AI 기술 파바스를 개발했다고 밝혔습니다. 연구는 물체의 질량과 속도 같은 물리량을 추론해 음향을 만들며, CVPR 2026에서 상위 1% 오랄 발표 논문으로 채택됐습니다. 콘텐츠, 게임, AR·VR 기업에는 멀티모달 생성 AI가 시각 패턴을 넘어 물리 기반 시뮬레이션과 제작 자동화로 확장되는 신호입니다.",
+      "eventDate": "2026-05-26",
+      "keywords": [
+        "KAIST",
+        "파바스",
+        "CVPR 상위 1%"
+      ],
+      "sources": [
+        {
+          "name": "데일리안",
+          "url": "https://www.dailian.co.kr/news/view/1648407/"
+        },
+        {
+          "name": "경향신문",
+          "url": "https://www.khan.co.kr/article/202605261528001"
         }
       ]
     }
