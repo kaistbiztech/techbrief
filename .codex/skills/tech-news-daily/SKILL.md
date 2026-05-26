@@ -46,6 +46,14 @@ KAIST 경영대학 테크 네트워크 **데일리 테크 브리프** 홈페이�
 
 - 사용자 발화에서 **기간**을 추출한다. 명시 없으면 "어제".
 - 사용자가 페르소나를 명시했는지 확인한다. 명시 없으면 디폴트(카이스트 MBA).
+- 사용자가 "다시", "새로", "강제로", "덮어써", "기존 발행본이 있어도"처럼 **재발행 의도**를 명시했는지 먼저 기록한다.
+
+### [0-a] 중복 실행 가드 (재발행 의도 없을 때)
+
+- 오늘 발행일의 `data/<id>.json`과 `date/<id>/index.html`이 이미 있고, 최근 git 로그에 `Add daily brief: <id>` 또는 `Refresh daily brief: <id>` 커밋이 있으면 **새 큐레이션·빌드·커밋을 하지 않는다**.
+- 이 경우 JSON을 파싱해 10개 헤드라인과 기존 커밋 해시만 확인하고, "이미 발행되어 중복 작업을 건너뛰었습니다"라고 보고한다.
+- 단, 사용자 발화에 재발행 의도가 있으면 이 가드를 적용하지 않는다. 기존 파일은 비교 참고와 백업 대상으로만 쓰고, 웹에서 새로 수집해 다시 작성한다.
+- 자동화 실행에서는 이 가드를 반드시 적용한다. 수동 요청에서만 명시적 재발행 표현을 우선한다.
 
 ### [1] 시간 컨텍스트 확정 → `references/time-context.md`
 
@@ -132,6 +140,11 @@ KAIST 경영대학 테크 네트워크 **데일리 테크 브리프** 홈페이�
 
 - 11개 체크리스트 모두 통과해야 한다.
 - 미통과 항목이 있으면 해당 카드를 재작성한 뒤 재검수. 통과할 때까지 반복.
+- 임시 검수 코드를 새로 작성하지 말고 전용 스크립트를 실행한다:
+  ```bash
+  python .codex\skills\tech-news-daily\scripts\self_check_daily.py data\<id>.json
+  ```
+- 검수 스크립트가 실패하면 출력된 항목만 고친 뒤 같은 명령을 다시 실행한다. Python 자체가 없을 때만 Node나 수동 검수로 대체하고, 대체 사유를 최종 보고와 메모리에 남긴다.
 
 ### [8] JSON 파일 작성 → `references/schema.md`
 
@@ -147,7 +160,8 @@ KAIST 경영대학 테크 네트워크 **데일리 테크 브리프** 홈페이�
 - 한국어 매체를 `sources` 배열의 **앞쪽**에 배치한다. 영문 원문은 뒤쪽 보조.
 
 **동일 일자 파일이 이미 존재**:
-- 사용자에게 덮어쓸지 한 번 묻는다. 발화에 "덮어써", "강제로", "다시 만들어줘" 같은 표현이 있으면 묻지 않고 진행.
+- 재발행 의도가 없으면 [0-a] 중복 실행 가드를 먼저 적용한다.
+- 발화에 "덮어써", "강제로", "다시 만들어줘", "기존 발행본이 있어도" 같은 표현이 있으면 묻지 않고 진행한다.
 - 진행 결정 시 **기존 파일을 백업으로 보존**:
   ```bash
   TS=$(date +%Y%m%d-%H%M%S)
@@ -167,6 +181,13 @@ python "$env:USERPROFILE\.codex\skills\tech-news-daily\scripts\generate_message.
 
 # 2) 사이트 풀 빌드 (해당 일자 페이지 + 루트 갱신)
 python "$env:USERPROFILE\.codex\skills\tech-news-daily\scripts\build_site.py"
+```
+
+Python 또는 Playwright 실행이 실패할 때만 Node fallback을 사용한다. Python이 성공했으면 Node 스크립트를 중복 실행하지 않는다.
+
+```bash
+node .codex\skills\tech-news-daily\scripts\generate_message.mjs data\<id>.json
+node .codex\skills\tech-news-daily\scripts\build_site.mjs
 ```
 
 산출물:
@@ -194,15 +215,24 @@ python "$env:USERPROFILE\.codex\skills\tech-news-daily\scripts\build_site.py"
 
 ```bash
 cd <dailytechbrief 프로젝트 루트>
-git add data/<id>.json date/<id>/ index.html
+git add data/<id>.json date/<id>/index.html date/<id>/og.png index.html
 git commit -m "Add daily brief: <id>"
 git push
 ```
 
 `Message/`와 `planning/`은 `.gitignore`로 빠져 추적되지 않는다.
 
+- 같은 날짜의 `Add daily brief: <id>` 커밋이 이미 있거나, 명시적 재발행으로 기존 발행본을 새 내용으로 바꿨으면 커밋 메시지는 `Refresh daily brief: <id>`를 사용한다.
+- 요청이나 자동화 프롬프트가 Node fallback 스크립트도 스테이징하라고 지정한 경우에만 `.codex/skills/tech-news-daily/scripts/generate_message.mjs`와 `build_site.mjs`를 추가한다. 변경이 없으면 git 상태에 표시되지 않아도 정상이다.
+- `.git/index.lock` 권한 오류가 나면 파괴적 재시도 없이 즉시 보고한다. `git reset --hard` 또는 `git checkout --`는 사용하지 않는다.
 - 각 단계의 실패는 즉시 사용자에게 보고한다. **파일은 이미 저장된 상태**이므로 사용자가 수동으로 후속 작업을 할 수 있도록 명확히 안내.
 - 인증이 실패하면 push만 실패하고 commit은 남는다. 그 상태를 정확히 알린다.
+
+### [10-a] 운영 메모리 기록
+
+- `$CODEX_HOME\automations\daily-tech-brief-publish\memory.md`가 있으면 작업 시작 전에 읽는다. `CODEX_HOME`이 비어 있으면 `%USERPROFILE%\.codex`를 사용한다.
+- 작업 종료 전 같은 파일에 실행 시각, 발행일, 커버리지, 백업 여부, 후보 요약, 생성 파일, 자체 검수 결과, 커밋 해시, push 결과를 짧게 append한다.
+- 메모리에 "이미 발행됨" 기록이 있어도 사용자 재발행 의도가 있으면 중단 근거로 쓰지 않는다.
 
 ## 출력 형식 (사용자 메시지)
 
