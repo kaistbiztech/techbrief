@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- BUILD:META:START -->
+<title>데일리 테크 브리프 — 2026.05.26 화요일</title>
+<meta property="og:type" content="article">
+<meta property="og:title" content="데일리 테크 브리프 — 2026.05.26 화요일">
+<meta property="og:description" content="01 OpenAI, 비공개 IPO 신청… 1,170조 밸류 · 02 엔비디아 Q1 호실적, 다음 분기 125조 가이던스 · 03 AMD, HBM4에 삼성 지명… SK 70% 균열">
+<meta property="og:image" content="https://kaistbiztech.github.io/dailytechbrief/date/2026-05-26/og.png">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1920">
+<meta property="og:url" content="https://kaistbiztech.github.io/dailytechbrief/date/2026-05-26/">
+<meta property="og:site_name" content="KAIST 경영대학 테크 네트워크">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="데일리 테크 브리프 — 2026.05.26 화요일">
+<meta name="twitter:description" content="01 OpenAI, 비공개 IPO 신청… 1,170조 밸류 · 02 엔비디아 Q1 호실적, 다음 분기 125조 가이던스 · 03 AMD, HBM4에 삼성 지명… SK 70% 균열">
+<meta name="twitter:image" content="https://kaistbiztech.github.io/dailytechbrief/date/2026-05-26/og.png">
+<script>
+  /* BASE_PATH는 페이지 JS의 fallback이 location.pathname에서 도출 */
+  window.__INITIAL_ID__ = "2026-05-26";
+  window.__LATEST_ID__ = "2026-05-26";
+</script>
+<!-- BUILD:META:END -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css">
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-tint: #f3f1ec;
+    --ink: #0a0a14;
+    --ink-soft: #2d2d3a;
+    --ink-mute: #777783;
+    --rule: #e6e6ea;
+    --rule-soft: #f2f2f5;
+
+    --kaist-blue: #1f4899;
+    --kaist-blue-deep: #15326b;
+    --kaist-blue-light: #2d5fc4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* ============ HERO HEADER ============ */
+  .hero-brand {
+    background: #ffffff;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--rule);
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .hero-brand:hover { background: var(--rule-soft); }
+  .hero-brand:focus-visible { outline: 2px solid var(--kaist-blue); outline-offset: -2px; }
+  .hero-brand-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  .hero-logo {
+    height: 72px;
+    width: auto;
+    flex-shrink: 0;
+  }
+  .hero-network {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    color: var(--ink);
+  }
+
+  .hero-masthead {
+    background: var(--kaist-blue);
+    color: #fff;
+    padding: 32px 0 28px;
+    position: relative;
+    text-align: center;
+  }
+  /* radial decoration: hero 영역 안에 정확히 클립되도록 별도 래퍼로 분리 */
+  .hero-masthead .hero-decoration {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .hero-masthead .hero-decoration::before {
+    content: "";
+    position: absolute;
+    right: -120px;
+    top: -120px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+  }
+  .hero-masthead-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 32px;
+    position: relative;
+    z-index: 2;
+  }
+  /* date-bar는 z-index 더 높여 picker가 다른 섹션을 덮을 수 있게 */
+  .hero-masthead-inner .date-bar { position: relative; z-index: 30; }
+  .hero-title {
+    font-weight: 900;
+    font-size: clamp(40px, 5.5vw, 60px);
+    line-height: 1;
+    letter-spacing: -0.035em;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+
+  /* ============ DATE BAR (파란 영역 안) ============ */
+  .date-bar {
+    padding-top: 0;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .today-date {
+    font-family: 'Inter', 'Pretendard', sans-serif;
+    font-weight: 700;
+    font-size: clamp(20px, 2.4vw, 26px);
+    letter-spacing: -0.015em;
+    line-height: 1.1;
+    color: rgba(255,255,255,0.85);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    user-select: none;
+    padding: 4px 6px;
+    border-radius: 6px;
+    background: transparent;
+    border: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    transition: color 0.15s ease, opacity 0.15s ease;
+  }
+  .today-date:hover { color: #fff; opacity: 0.95; }
+  .today-date:focus-visible { outline: 2px solid rgba(255,255,255,0.4); outline-offset: 2px; }
+  .today-date .day {
+    color: rgba(255,255,255,0.7);
+    margin-left: 4px;
+    font-weight: 700;
+  }
+  .today-date .chevron {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 6px;
+    color: rgba(255,255,255,0.6);
+    transition: transform 0.18s ease;
+  }
+  .today-date.open .chevron { transform: rotate(180deg); }
+  .today-date .chevron svg { width: 14px; height: 14px; }
+
+  .date-picker {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    color: var(--ink);
+    border-radius: 8px;
+    box-shadow: 0 16px 48px rgba(0,0,0,0.22);
+    padding: 8px;
+    min-width: 240px;
+    max-height: 360px;
+    overflow-y: auto;
+    z-index: 20;
+  }
+  .date-picker[hidden] { display: none; }
+  .date-picker-row {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 14px;
+    background: transparent;
+    border: none;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: -0.005em;
+  }
+  .date-picker-row:hover { background: var(--rule-soft); color: var(--kaist-blue); }
+  .date-picker-row.active {
+    background: var(--kaist-blue);
+    color: #fff;
+    font-weight: 700;
+  }
+
+  /* ============ TOC (헤드라인 목차) ============ */
+  .toc {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 32px 8px;
+  }
+  .toc-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--ink-mute);
+    margin-bottom: 16px;
+  }
+  .toc-list {
+    list-style: none;
+  }
+  .toc-row {
+    display: grid;
+    grid-template-columns: 40px 1fr 18px;
+    gap: 14px;
+    align-items: center;
+    padding: 11px 8px;
+    border-bottom: 1px solid var(--rule);
+    cursor: pointer;
+    transition: all 0.18s ease;
+  }
+  .toc-row:hover {
+    background: var(--rule-soft);
+    padding-left: 14px;
+  }
+  .toc-row:hover .toc-title { color: var(--kaist-blue); }
+  .toc-row:hover .toc-arrow { transform: translateY(2px); color: var(--kaist-blue); }
+  .toc-num {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    color: var(--kaist-blue);
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  .toc-title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: -0.015em;
+    color: var(--ink);
+    transition: color 0.18s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .toc-arrow {
+    color: var(--ink-mute);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    transition: all 0.18s ease;
+  }
+
+  /* ============ CARDS SECTION DIVIDER ============ */
+  .cards-divider {
+    max-width: 1100px;
+    margin: 56px auto 0;
+    padding: 0 32px 24px;
+  }
+  .cards-divider-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--kaist-blue);
+    text-transform: uppercase;
+    border-top: 3px solid var(--ink);
+    padding-top: 18px;
+  }
+
+  /* ============ CARD LIST (전부 펼친 상태) ============ */
+  .card-list {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  .news-card {
+    border-bottom: 1px solid var(--rule);
+    padding: 36px 8px 40px;
+    scroll-margin-top: 24px;
+  }
+  .news-card-head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .news-num-row {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+  }
+  .news-num {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1;
+    color: var(--kaist-blue);
+    letter-spacing: -0.03em;
+  }
+  .news-event-date {
+    font-family: 'Inter', 'Pretendard', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink-mute);
+    letter-spacing: 0;
+  }
+  .news-event-date::before {
+    content: "📅 ";
+  }
+  .news-title {
+    font-size: clamp(22px, 2.4vw, 28px);
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+  }
+  .news-detail-inner {
+    background: transparent;
+    padding: 0;
+    margin-left: 0;
+  }
+  .detail-summary {
+    font-size: 18px;
+    line-height: 1.75;
+    color: var(--ink-soft);
+    font-weight: 400;
+    letter-spacing: -0.005em;
+    margin-bottom: 24px;
+  }
+  .detail-cta-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .detail-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    color: var(--kaist-blue);
+    border: 1px solid var(--kaist-blue);
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 3px;
+    letter-spacing: -0.005em;
+    transition: all 0.15s;
+  }
+  .detail-cta:hover {
+    background: var(--kaist-blue);
+    color: #fff;
+  }
+  .detail-cta svg { width: 12px; height: 12px; }
+
+  /* ============ FLOATING ACTION BUTTONS (우측 하단) ============ */
+  .fab-stack {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 40;
+  }
+  .fab {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 18px;
+    background: var(--kaist-blue);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(31,72,153,0.35);
+    transition: background 0.15s ease, transform 0.15s ease;
+  }
+  .fab:hover { background: var(--kaist-blue-deep); transform: translateY(-1px); }
+  .fab:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+  .fab .fab-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+  .fab .fab-icon svg { width: 14px; height: 14px; }
+  .fab.fab-secondary {
+    background: #fff;
+    color: var(--kaist-blue);
+    border: 1.5px solid var(--kaist-blue);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  }
+  .fab.fab-secondary:hover { background: var(--rule-soft); }
+
+  /* ============ ARCHIVE ============ */
+  .archive {
+    max-width: 1100px;
+    margin: 72px auto 0;
+    padding: 0 32px 72px;
+  }
+  .archive-title {
+    font-weight: 800;
+    font-size: clamp(24px, 3vw, 30px);
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    color: var(--ink);
+  }
+  .archive-subtitle {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-mute);
+    margin-bottom: 18px;
+  }
+  .archive-list {
+    border-top: 2px solid var(--ink);
+  }
+  .archive-row {
+    display: block;
+    padding: 18px 8px;
+    border-bottom: 1px solid var(--rule);
+    transition: all 0.18s;
+    cursor: pointer;
+  }
+  .archive-row:hover {
+    background: var(--rule-soft);
+    padding-left: 14px;
+  }
+  .archive-row-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .archive-row:hover .archive-arrow {
+    color: var(--kaist-blue);
+    transform: translateX(4px);
+  }
+  .archive-date {
+    font-family: 'Inter', 'Pretendard', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--kaist-blue);
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .archive-date small {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--ink-mute);
+    letter-spacing: 0;
+  }
+  .archive-arrow {
+    color: var(--ink-mute);
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.18s;
+  }
+  .archive-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .archive-title-row {
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    gap: 8px;
+    font-size: 12.5px;
+    line-height: 1.4;
+    color: var(--ink-soft);
+    letter-spacing: -0.01em;
+  }
+  .archive-title-row .archive-title-num {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: var(--kaist-blue);
+    font-size: 11px;
+    line-height: 1.5;
+  }
+  .archive-title-row .archive-title-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.18s;
+  }
+  .archive-row:hover .archive-title-text { color: var(--ink); }
+
+  /* ============ FOOTER ============ */
+  .footer {
+    background: var(--ink);
+    color: rgba(255,255,255,0.7);
+    padding: 40px 32px;
+    text-align: center;
+  }
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .footer-brand {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .footer-meta {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  /* ============ LOADING / EMPTY ============ */
+  .loading-state {
+    padding: 60px 32px;
+    text-align: center;
+    color: var(--ink-mute);
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .loading-state code {
+    font-family: 'Inter', monospace;
+    background: var(--rule-soft);
+    padding: 2px 8px;
+    border-radius: 3px;
+  }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width: 720px) {
+    .hero-brand { padding: 20px 0; }
+    .hero-brand-inner { padding: 0 22px; gap: 12px; }
+    .hero-logo { height: 52px; }
+    .hero-network { font-size: 16px; }
+    .hero-masthead { padding: 32px 0 28px; }
+    .hero-masthead-inner { padding: 0 22px; }
+    .hero-title { margin-bottom: 12px; font-size: clamp(32px, 7.5vw, 44px); }
+    .today-date { font-size: 17px; }
+
+    .toc { padding: 24px 22px 8px; }
+    .toc-row {
+      grid-template-columns: 32px 1fr 14px;
+      gap: 10px;
+      padding: 10px 4px;
+    }
+    .toc-row:hover { padding-left: 10px; }
+    .toc-num { font-size: 15px; }
+    .toc-title { font-size: 13px; }
+
+    .cards-divider { margin-top: 40px; padding: 0 22px 18px; }
+
+    .card-list { padding: 0 22px; }
+    .news-card { padding: 28px 4px 32px; }
+    .news-card-head {
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .news-num { font-size: 28px; }
+    .news-title { font-size: 19px; }
+
+    .news-detail-inner {
+      margin-left: 0;
+      padding: 0;
+    }
+    .detail-summary { font-size: 16px; line-height: 1.7; }
+    .back-to-toc { margin-left: 0; }
+
+    .archive { padding: 0 22px 56px; margin-top: 56px; }
+    .archive-row {
+      padding: 14px 4px;
+    }
+    .archive-row:hover { padding-left: 10px; }
+    .archive-row-header { margin-bottom: 8px; }
+    .archive-date { font-size: 14px; }
+    .archive-title-row {
+      grid-template-columns: 20px 1fr;
+      gap: 6px;
+      font-size: 12px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO HEADER -->
+<header>
+  <div class="hero-brand" id="heroBrand" role="button" tabindex="0" aria-label="최신 호로 이동">
+    <div class="hero-brand-inner">
+      <img class="hero-logo" id="heroLogo" alt="KAIST College of Business">
+      <div class="hero-network">KAIST 경영대학 테크 네트워크</div>
+    </div>
+  </div>
+  <div class="hero-masthead">
+    <div class="hero-decoration" aria-hidden="true"></div>
+    <div class="hero-masthead-inner">
+      <h1 class="hero-title">데일리 테크 브리프</h1>
+      <div class="date-bar">
+        <button type="button" class="today-date" id="todayDate" aria-haspopup="listbox" aria-expanded="false">
+          <span class="date-text">—</span>
+          <span class="chevron" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="date-picker" id="datePicker" role="listbox" hidden></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- TOC: 헤드라인 목차 (접힌 리스트) -->
+<section class="toc" id="tocSection" aria-label="오늘의 헤드라인">
+  <div class="toc-label" id="tocLabel">오늘의 헤드라인</div>
+  <ul class="toc-list" id="tocList">
+    <li class="loading-state">브리프를 불러오는 중입니다…</li>
+  </ul>
+</section>
+
+<!-- DIVIDER -->
+<div class="cards-divider" id="cardsDivider" style="display:none;">
+  <div class="cards-divider-label">상세 브리프 목록</div>
+</div>
+
+<!-- CARD LIST: 전부 펼친 상태 -->
+<main class="card-list" id="cardList"></main>
+
+<!-- ARCHIVE -->
+<section class="archive">
+  <h2 class="archive-title">지난 날짜 보기</h2>
+  <p class="archive-subtitle">날짜를 누르면 그 날의 브리프를 볼 수 있습니다</p>
+
+  <div class="archive-list" id="archiveList">
+    <div class="loading-state">아카이브를 불러오는 중입니다…</div>
+  </div>
+</section>
+
+<!-- FLOATING ACTION BUTTONS -->
+<div class="fab-stack" id="fabStack">
+  <button type="button" class="fab fab-secondary" id="fabDate" aria-label="다른 날짜 보기">
+    <span class="fab-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    </span>
+    <span>다른 날짜</span>
+  </button>
+  <button type="button" class="fab" id="fabToc" aria-label="목차로 이동">
+    <span class="fab-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </span>
+    <span>목차로</span>
+  </button>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">KAIST 경영대학 테크 네트워크</div>
+    <div class="footer-meta">© 2026 데일리 테크 브리프 편집팀 및 Agent</div>
+  </div>
+</footer>
+
+<!-- SVG icon templates -->
+<template id="icon-external">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+</template>
+<template id="icon-arrow">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+</template>
+
+<script>
+  /**
+   * 데일리 테크 브리프
+   * 데이터 운영: data/YYYY-MM-DD.json 파일만 추가하면 자동 인식
+   *   - 인덱스 파일 불필요
+   *   - 오늘 날짜 기준 거꾸로 LOOKBACK_DAYS일 스캔
+   *
+   * 라우팅:
+   *   - 루트(BASE_PATH): 최신 호
+   *   - BASE_PATH + "date/YYYY-MM-DD/": 특정 일자 호
+   *   - 정적 페이지는 그 일자에 맞춰 빌드돼 OG 메타가 매번 다름
+   *   - 내부 네비는 history.pushState로 깜빡임 없이 갱신
+   */
+  // BASE_PATH: 빌드 스크립트가 페이지마다 박음. 없으면 현재 경로에서 도출.
+  const BASE_PATH = window.__BASE_PATH__ || (() => {
+    const p = location.pathname;
+    const m = p.match(/^(.*?)\/date\/\d{4}-\d{2}-\d{2}\/?$/);
+    if (m) return (m[1] || '') + '/';
+    if (p.endsWith('/')) return p;
+    return p.replace(/\/[^/]*$/, '/') || '/';
+  })();
+  const DATA_DIR = BASE_PATH + 'data';
+  const LOOKBACK_DAYS = 45;     // 오늘 기준 거슬러 스캔할 일수
+  const ARCHIVE_SHOW = 5;       // 아카이브에 노출할 최대 개수
+
+  function esc(str) {
+    return String(str ?? '')
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function pad2(n) { return String(n).padStart(2, '0'); }
+  function formatDate(id) { return id.replaceAll('-', '.'); }
+
+  // 후보 날짜 ID 목록 (KST 기준, 오늘부터 거꾸로)
+  function candidateIds(days = LOOKBACK_DAYS) {
+    const now = new Date();
+    // KST 보정 (UTC+9)
+    const kst = new Date(now.getTime() + (9 * 60 - now.getTimezoneOffset()) * 60 * 1000);
+    const out = [];
+    for (let i = 0; i < days; i++) {
+      const d = new Date(kst);
+      d.setUTCDate(d.getUTCDate() - i);
+      out.push(`${d.getUTCFullYear()}-${pad2(d.getUTCMonth() + 1)}-${pad2(d.getUTCDate())}`);
+    }
+    return out;
+  }
+
+  async function fetchEdition(id) {
+    const res = await fetch(`${DATA_DIR}/${id}.json`, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`${id} not found`);
+    return res.json();
+  }
+
+  // 발행분 자동 탐색: 모든 후보를 병렬 fetch, 성공한 것만 최신순 정렬
+  async function discoverEditions() {
+    const ids = candidateIds();
+    const results = await Promise.allSettled(ids.map(id => fetchEdition(id)));
+    const found = results
+      .map((r, idx) => ({ id: ids[idx], status: r.status, value: r.value }))
+      .filter(r => r.status === 'fulfilled')
+      .map(r => r.value)
+      .sort((a, b) => b.id.localeCompare(a.id));
+    return found;
+  }
+
+  function renderDateBar(edition) {
+    const btn = document.getElementById('todayDate');
+    const textEl = btn.querySelector('.date-text');
+    textEl.innerHTML =
+      `${esc(formatDate(edition.id))}<span class="day">${esc(edition.dayOfWeek)}요일</span>`;
+
+    document.getElementById('tocLabel').textContent =
+      `오늘의 테크 뉴스 ${edition.newsItems.length}`;
+  }
+
+  function renderDatePicker(activeId) {
+    const picker = document.getElementById('datePicker');
+    picker.innerHTML = '';
+    _editions.forEach(ed => {
+      const row = document.createElement('button');
+      row.type = 'button';
+      row.className = 'date-picker-row' + (ed.id === activeId ? ' active' : '');
+      row.setAttribute('role', 'option');
+      row.dataset.id = ed.id;
+      row.textContent = `${formatDate(ed.id)} ${ed.dayOfWeek}요일${ed.id === _latestId ? ' · 최신' : ''}`;
+      row.addEventListener('click', () => {
+        closeDatePicker();
+        navigateTo(ed.id);
+      });
+      picker.appendChild(row);
+    });
+  }
+
+  function toggleDatePicker() {
+    const btn = document.getElementById('todayDate');
+    const picker = document.getElementById('datePicker');
+    const opening = picker.hidden;
+    picker.hidden = !opening;
+    btn.classList.toggle('open', opening);
+    btn.setAttribute('aria-expanded', String(opening));
+  }
+  function closeDatePicker() {
+    const btn = document.getElementById('todayDate');
+    const picker = document.getElementById('datePicker');
+    picker.hidden = true;
+    btn.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+  }
+
+  function renderTOC(edition) {
+    const tocList = document.getElementById('tocList');
+    tocList.innerHTML = '';
+    edition.newsItems.forEach(item => {
+      const li = document.createElement('li');
+      li.className = 'toc-row';
+      li.dataset.target = `news-${item.order}`;
+      li.innerHTML = `
+        <div class="toc-num">${pad2(item.order)}</div>
+        <div class="toc-title">${esc(item.title)}</div>
+        <div class="toc-arrow">↓</div>
+      `;
+      li.addEventListener('click', () => {
+        const target = document.getElementById(li.dataset.target);
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      tocList.appendChild(li);
+    });
+  }
+
+  // 다중 출처 지원: sources 배열 우선, 없으면 sourceName/sourceUrl을 단일 항목으로 변환
+  function getSources(item) {
+    if (Array.isArray(item.sources) && item.sources.length > 0) return item.sources;
+    if (item.sourceUrl) return [{ name: item.sourceName || '원문', url: item.sourceUrl }];
+    return [];
+  }
+
+  function renderCards(edition) {
+    const list = document.getElementById('cardList');
+    list.innerHTML = '';
+    const extSvg = document.getElementById('icon-external').innerHTML;
+    const arrSvg = document.getElementById('icon-arrow').innerHTML;
+
+    edition.newsItems.forEach(item => {
+      const sources = getSources(item);
+      const primary = sources[0];
+
+      const ctaHtml = sources.length > 0
+        ? `<div class="detail-cta-group">
+             ${sources.map(s => `
+               <a href="${esc(s.url)}" target="_blank" rel="noopener" class="detail-cta">
+                 ${esc(s.name)} ${extSvg}
+               </a>
+             `).join('')}
+           </div>`
+        : '';
+
+      const card = document.createElement('article');
+      card.className = 'news-card';
+      card.id = `news-${item.order}`;
+      const eventDateHtml = item.eventDate
+        ? `<span class="news-event-date">${esc(item.eventDate.replaceAll('-', '.'))}</span>`
+        : '';
+
+      card.innerHTML = `
+        <div class="news-card-head">
+          <div class="news-num-row">
+            <div class="news-num">${pad2(item.order)}</div>
+            ${eventDateHtml}
+          </div>
+          <div class="news-title">${esc(item.title)}</div>
+        </div>
+        <div class="news-detail-inner">
+          <p class="detail-summary">${esc(item.summary)}</p>
+          ${ctaHtml}
+        </div>
+      `;
+      list.appendChild(card);
+    });
+    document.getElementById('cardsDivider').style.display = '';
+  }
+
+  function renderArchive(editions, latestId) {
+    const archive = document.getElementById('archiveList');
+    archive.innerHTML = '';
+    const items = editions.filter(e => e.id !== latestId).slice(0, ARCHIVE_SHOW);
+
+    if (items.length === 0) {
+      archive.innerHTML = '<div class="loading-state">아직 지난 호가 없습니다.</div>';
+      return;
+    }
+
+    items.forEach(e => {
+      const top5 = (e.newsItems || []).slice(0, 5);
+      const row = document.createElement('a');
+      row.className = 'archive-row';
+      row.href = urlForId(e.id);
+      row.innerHTML = `
+        <div class="archive-row-header">
+          <div class="archive-date">${esc(formatDate(e.id))} <small>${esc(e.dayOfWeek)}요일</small></div>
+          <div class="archive-arrow">→</div>
+        </div>
+        <div class="archive-titles">
+          ${top5.map(item => `
+            <div class="archive-title-row">
+              <span class="archive-title-num">${pad2(item.order)}</span>
+              <span class="archive-title-text">${esc(item.title)}</span>
+            </div>
+          `).join('')}
+        </div>
+      `;
+      row.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        navigateTo(e.id);
+      });
+      archive.appendChild(row);
+    });
+  }
+
+  function renderEdition(edition) {
+    renderDateBar(edition);
+    renderTOC(edition);
+    renderCards(edition);
+  }
+
+  // 발견된 편집본 캐시
+  let _editions = [];
+  let _latestId = null;
+
+  // URL path → 일자 ID. "/dailytechbrief/date/2026-05-25/" → "2026-05-25". 없으면 null(최신).
+  function pathToId() {
+    const m = location.pathname.match(/\/date\/(\d{4}-\d{2}-\d{2})\/?$/);
+    return m ? m[1] : null;
+  }
+
+  function urlForId(id) {
+    if (!id || id === _latestId) return BASE_PATH;
+    return BASE_PATH + 'date/' + id + '/';
+  }
+
+  function navigateTo(id) {
+    const url = urlForId(id);
+    if (url !== location.pathname) {
+      history.pushState({ id }, '', url);
+    }
+    applyRoute(id, { scroll: true });
+  }
+
+  function applyRoute(id, opts) {
+    const target = id ? _editions.find(e => e.id === id) : null;
+    const edition = target || _editions.find(e => e.id === _latestId);
+    if (edition) {
+      renderEdition(edition);
+      renderArchive(_editions, edition.id);
+      renderDatePicker(edition.id);
+      if (opts && opts.scroll) window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  function onPopState() {
+    applyRoute(pathToId(), { scroll: true });
+  }
+
+  async function init() {
+    // 로고 src를 BASE_PATH 기반 절대 경로로 (date/<id>/ 깊이에서도 정상 로드)
+    const heroLogo = document.getElementById('heroLogo');
+    if (heroLogo) heroLogo.src = BASE_PATH + 'KCB_Logo.png';
+
+    try {
+      _editions = await discoverEditions();
+      if (_editions.length === 0) throw new Error('No editions found');
+      _latestId = window.__LATEST_ID__ || _editions[0].id;
+
+      // 초기 ID 결정 우선순위: window.__INITIAL_ID__ (빌드 시 박힘) → URL path → 최신
+      const initialIdFromPage = window.__INITIAL_ID__;
+      const initialIdFromPath = pathToId();
+      const initialId = initialIdFromPage || initialIdFromPath || _latestId;
+      const initial = _editions.find(e => e.id === initialId) || _editions[0];
+      renderEdition(initial);
+      renderArchive(_editions, initial.id);
+      renderDatePicker(initial.id);
+
+      // 상단 브랜드 클릭 → 최신호
+      const brand = document.getElementById('heroBrand');
+      const goLatest = () => navigateTo(_latestId);
+      brand.addEventListener('click', goLatest);
+      brand.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); goLatest(); }
+      });
+
+      // 날짜 드롭다운 토글
+      const dateBtn = document.getElementById('todayDate');
+      const picker = document.getElementById('datePicker');
+      dateBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        toggleDatePicker();
+      });
+      document.addEventListener('click', e => {
+        if (!picker.hidden && !picker.contains(e.target) && !dateBtn.contains(e.target)) {
+          closeDatePicker();
+        }
+      });
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeDatePicker();
+      });
+
+      // FAB: 목차로 이동
+      document.getElementById('fabToc').addEventListener('click', () => {
+        const toc = document.getElementById('tocSection');
+        if (toc) toc.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      // FAB: 다른 날짜 → "지난 날짜 보기" 섹션으로 스크롤
+      document.getElementById('fabDate').addEventListener('click', () => {
+        const archive = document.querySelector('.archive');
+        if (archive) archive.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+      // FAB: 목차 영역이 화면에 보일 때는 숨김 (이미 거기 있음)
+      const fab = document.getElementById('fabStack');
+      const toc = document.getElementById('tocSection');
+      const cardList = document.getElementById('cardList');
+      if ('IntersectionObserver' in window && toc && cardList) {
+        const io = new IntersectionObserver(entries => {
+          // cardList가 보일 때만 FAB 노출
+          const cardListEntry = entries.find(e => e.target === cardList);
+          if (cardListEntry) {
+            fab.style.display = cardListEntry.isIntersecting ? '' : 'none';
+          }
+        }, { threshold: 0.05 });
+        io.observe(cardList);
+      }
+
+      window.addEventListener('popstate', onPopState);
+    } catch (err) {
+      console.error(err);
+      document.getElementById('tocList').innerHTML =
+        '<li class="loading-state">발행된 브리프를 찾을 수 없습니다.<br>로컬에서 보실 때는 <code>python3 -m http.server</code> 같은 정적 서버로 실행해 주시기 바랍니다.</li>';
+      document.getElementById('archiveList').innerHTML = '';
+    }
+  }
+
+  init();
+</script>
+
+</body>
+</html>

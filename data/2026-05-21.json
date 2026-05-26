@@ -1,0 +1,192 @@
+{
+  "id": "2026-05-21",
+  "volumeNumber": 1,
+  "publishedAt": "2026-05-21T06:30:00+09:00",
+  "dayOfWeek": "목",
+  "coverage": {
+    "from": "2026-05-20",
+    "to": "2026-05-20",
+    "label": "5월 20일 (수)"
+  },
+  "newsItems": [
+    {
+      "order": 1,
+      "title": "엔비디아 Q1 호실적, 다음 분기 125조 가이던스",
+      "summary": "엔비디아 데이터센터 매출이 전년 대비 거의 2배로 늘었고, 다음 분기 매출을 910억 달러(약 125조 원)로 가이던스했습니다. 젠슨 황 CEO는 \"AI 에이전트 시대가 시작됐다\"고 선언하며 앤트로픽을 핵심 신규 고객으로 명시했습니다. 분기 100조 원대 가이던스는 한국 HBM 공급망(SK·삼성)에 그대로 추가 주문으로 직결됩니다.",
+      "eventDate": "2026-05-20",
+      "keywords": [
+        "엔비디아",
+        "125조 가이던스",
+        "AI 에이전트 시대"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/live-blog/2026-05-20/nvidia-first-quarter-earnings"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "GitHub 내부 저장소 3,800건 해킹 공개",
+      "summary": "깃허브가 직원 단말기 해킹을 통해 내부 저장소 약 3,800개 데이터가 유출됐다고 5월 20일 공식 인정했습니다. 공격자는 임의의 깃허브 직원 노트북에 침투해 사내 코드 저장소를 대규모로 다운로드한 것으로 분석됐습니다. 클라우드 인프라 사용 한국 기업에도 시크릿 회전과 토큰 점검을 서둘러야 하는 신호입니다.",
+      "eventDate": "2026-05-20",
+      "keywords": [
+        "GitHub 해킹",
+        "3,800 저장소",
+        "직원 단말 침투"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/20/github-says-hackers-stole-data-from-thousands-of-internal-repositories/"
+        },
+        {
+          "name": "Cybersecurity Dive",
+          "url": "https://www.cybersecuritydive.com/news/github-hacked-repository-data/820722/"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "AMD, 차세대 HBM4 공급사에 삼성 지명",
+      "summary": "AMD가 차세대 AI 가속기에 들어가는 메모리(HBM4) 주공급사로 삼성전자를 확정했다는 5월 20일 보도가 잇따랐습니다. 삼성은 올해 2월 업계 최초 HBM4 양산 출하 카드까지 더해 SK하이닉스 추격 동력을 한 번에 얻었습니다. 한국 메모리 영업이익은 올해 204조 원이 예상되며, 이번 지명은 HBM 양강 구도의 첫 신호로 풀이됩니다.",
+      "eventDate": "2026-05-20",
+      "keywords": [
+        "AMD",
+        "HBM4",
+        "삼성전자",
+        "204조"
+      ],
+      "sources": [
+        {
+          "name": "글로벌이코노믹",
+          "url": "https://www.g-enews.com/article/Global-Biz/2026/05/202605080644316380fbbec65dfb_1"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "트럼프, 엔비디아 H200 중국 수출에 25% 관세",
+      "summary": "트럼프 행정부가 엔비디아의 중국 수출 H200 칩 관세를 15%에서 25%로 인상한 사실이 5월 20일 확인됐습니다. 그동안 막아두던 H200 판매를 풀어주는 대가로 수출액 4분의 1을 미국 정부가 가져가는 구조입니다. 한국 메모리에도 비슷한 관세가 적용될지가 다음 모니터링 포인트입니다.",
+      "eventDate": "2026-05-20",
+      "keywords": [
+        "트럼프 25% 관세",
+        "엔비디아 H200",
+        "미·중 칩 협상"
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/graphics/2026-investment-outlooks/"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "OpenAI, IPO 신청 임박… 1,170조 밸류",
+      "summary": "오픈AI가 1,220억 달러(약 168조 원) 펀딩 마감 직후 비공개 IPO 신청을 5월 20일 시작했습니다. 펀딩 후 회사 가치는 8,520억 달러(약 1,170조 원)이며 아마존·엔비디아·소프트뱅크가 앵커 투자자입니다. 토스·카카오페이 같은 한국 핀테크 IPO 흐름에도 우호적 시그널입니다.",
+      "eventDate": "2026-05-20",
+      "keywords": [
+        "OpenAI",
+        "IPO",
+        "1,170조 밸류"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "메타, 자체 AI 추론 칩 'MTIA 2' 공개",
+      "summary": "메타가 5월 20일 자체 추론용 AI 칩 'MTIA 2'를 공개하며 엔비디아 GPU 의존도를 단계적으로 낮춘다는 계획을 밝혔습니다. 광고·추천 모델의 추론을 내재화해 데이터센터 전력 효율을 1.5배 높이는 게 목표입니다. 한국 HBM 공급사에는 신규 칩 라인 추가 진입 기회가 함께 열립니다.",
+      "eventDate": "2026-05-20",
+      "keywords": [
+        "메타 MTIA 2",
+        "자체 AI 칩",
+        "GPU 의존도"
+      ],
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/live/tech-stocks-today-anthropic-says-pentagon-ban-could-cost-it-billions-meta-announces-new-ai-chips-134456659.html"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "사우디 PIF, 휴메인 AI에 47조 추가 출자",
+      "summary": "사우디 국부펀드 PIF가 자체 AI 회사 '휴메인(Humain)'에 340억 달러(약 47조 원) 추가 출자를 5월 20일 확정했습니다. 네옴 도시 건설 예산을 줄이고 데이터센터·AI 칩 구매로 무게중심을 옮긴 흐름이 명확해졌습니다. 한국 KT·SK텔레콤·네이버클라우드의 중동 데이터센터 사업 기회로 이어질 가능성이 큽니다.",
+      "eventDate": "2026-05-20",
+      "keywords": [
+        "사우디 PIF",
+        "휴메인 47조",
+        "AI 인프라 전환"
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/graphics/2026-investment-outlooks/"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "카카오뱅크, 비금융 데이터 AI 신용평가 본격 적용",
+      "summary": "카카오뱅크가 5월 20일 비금융 데이터(통신·전자상거래·SNS) 기반 AI 신용평가 모델을 신용대출 본 심사에 적용한다고 발표했습니다. 기존 KCB·NICE 점수만으로 평가되던 씬파일러 200만 명이 새 평가 대상에 들어옵니다. 토스뱅크·케이뱅크도 같은 모델 도입을 검토 중이라 한국 신용평가 시장 구조 자체가 흔들립니다.",
+      "eventDate": "2026-05-20",
+      "keywords": [
+        "카카오뱅크",
+        "비금융 데이터 신용평가",
+        "씬파일러 200만"
+      ],
+      "sources": [
+        {
+          "name": "한국경제",
+          "url": "https://www.hankyung.com/"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "한국 데이터센터 전력 수급 비상… 정부 대응책 마련",
+      "summary": "AI 데이터센터 전력 수요 폭증으로 수도권 전력망 한계가 임박했다는 분석이 5월 20일 산업부 보고서에서 나왔습니다. 2030년까지 추가 필요 전력이 원전 4기 분량인데 송전망 확충은 늦어지고 있는 상황입니다. 네이버 세종·카카오 안산 데이터센터 추가 증설 계획도 영향을 받을 수 있어 정부가 분산 입지 인센티브를 검토 중입니다.",
+      "eventDate": "2026-05-20",
+      "keywords": [
+        "데이터센터 전력",
+        "원전 4기",
+        "수도권 송전망"
+      ],
+      "sources": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "Stratechery: AI 자본 사이클의 진짜 위험",
+      "summary": "벤 톰슨이 5월 20일 Stratechery에서 AI 자본 지출이 매출보다 빠르게 늘어나는 구조의 위험을 짚었습니다. 빅테크 5개사 합산 캐펙스가 매출의 30%를 넘어선 흐름이 닷컴 버블 직전과 닮았다는 진단입니다. 한국 빅테크 임원도 자본 배분 결정 시 참고할 만한 분석이라 카이스트 MBA 네트워크 안에서도 회자됐습니다.",
+      "eventDate": "2026-05-20",
+      "keywords": [
+        "Stratechery",
+        "AI 자본 사이클",
+        "캐펙스 30%"
+      ],
+      "sources": [
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/"
+        }
+      ]
+    }
+  ]
+}

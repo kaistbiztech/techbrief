@@ -1,0 +1,212 @@
+{
+  "id": "2026-05-26",
+  "volumeNumber": 3,
+  "publishedAt": "2026-05-26T06:30:00+09:00",
+  "dayOfWeek": "화",
+  "coverage": {
+    "from": "2026-05-23",
+    "to": "2026-05-25",
+    "label": "5월 23~25일 (토·일·월)"
+  },
+  "newsItems": [
+    {
+      "order": 1,
+      "title": "OpenAI, 비공개 IPO 신청… 1,170조 밸류",
+      "summary": "오픈AI가 1,220억 달러(약 168조 원) 펀딩을 사상 최대 사적 펀딩으로 마감했습니다. 펀딩 후 회사 가치는 8,520억 달러(약 1,170조 원)이며, 아마존·엔비디아·소프트뱅크가 앵커 투자자로 참여한 구조입니다. IPO 주식 일부를 개인 투자자에게도 풀겠다고 밝혀, 토스·카카오페이 IPO 흐름에도 우호적 시그널입니다.",
+      "eventDate": "2026-05-25",
+      "keywords": [
+        "OpenAI",
+        "IPO",
+        "1,170조 밸류"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "엔비디아 Q1 호실적, 다음 분기 125조 가이던스",
+      "summary": "엔비디아 데이터센터 매출이 전년 대비 거의 2배로 늘었고, 다음 분기 매출을 910억 달러(약 125조 원)로 가이던스했습니다. 젠슨 황 CEO는 \"AI 에이전트 시대가 시작됐다\"고 선언하며 앤트로픽을 핵심 신규 고객으로 명시했습니다. 분기 100조 원대 가이던스는 한국 HBM 공급망(SK·삼성)에 그대로 추가 주문으로 직결됩니다.",
+      "eventDate": "2026-05-25",
+      "keywords": [
+        "엔비디아",
+        "125조 가이던스",
+        "AI 에이전트 시대"
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/22/the-tech-download-what-you-might-have-missed-in-nvidias-earnings.html"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "AMD, HBM4에 삼성 지명… SK 70% 균열",
+      "summary": "AMD가 다음 세대 AI 가속기에 들어가는 메모리(HBM4) 주공급사로 삼성전자를 지명했습니다. 삼성은 올해 2월 업계에서 가장 먼저 HBM4 양산 출하를 시작한 카드를 들고 있어 추격 동력을 한 번에 얻었습니다. 한국 메모리 영업이익은 올해 204조 원이 예상되며, 이번 지명은 HBM 양강 구도의 첫 신호입니다.",
+      "eventDate": "2026-05-25",
+      "keywords": [
+        "AMD",
+        "HBM4",
+        "삼성전자",
+        "204조"
+      ],
+      "sources": [
+        {
+          "name": "글로벌이코노믹",
+          "url": "https://www.g-enews.com/article/Global-Biz/2026/05/202605080644316380fbbec65dfb_1"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "간편결제 3사 연간 100조 돌파… 자체 결제 성장",
+      "summary": "네이버페이·카카오페이·토스의 연간 거래액이 처음으로 100조 원을 돌파한 것으로 5월 22일 집계됐습니다. 토스의 얼굴인식 결제 '페이스페이' 사용자가 480만 명으로 늘었고, 가맹점도 33만 곳으로 확장됐습니다. 카드 연동을 넘어 자체 결제 인프라 성장이라는 점에서 한국 핀테크의 새 단계로 평가됩니다.",
+      "eventDate": "2026-05-22",
+      "keywords": [
+        "간편결제 100조",
+        "토스 페이스페이",
+        "한국 핀테크"
+      ],
+      "sources": [
+        {
+          "name": "핀테크투데이",
+          "url": "http://www.fintechtoday.co.kr/news/articleView.html?idxno=2750"
+        },
+        {
+          "name": "핀테크투데이",
+          "url": "http://www.fintechtoday.co.kr/news/articleView.html?idxno=2746"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "앤트로픽 Claude Opus 4.7 + 멀티에이전트",
+      "summary": "앤트로픽이 5월 21일 새 모델 Claude Opus 4.7과 멀티에이전트 기능을 공개했습니다. 한 메인 에이전트가 작업을 쪼개 여러 전문 에이전트에 분배하고 공유 파일시스템에서 병렬로 일합니다. 디자인 자동화 'Claude Design'까지 함께 나와, 한국 SaaS·디자인 업계에 새 경쟁 압력이 됩니다.",
+      "eventDate": "2026-05-25",
+      "keywords": [
+        "Claude Opus 4.7",
+        "멀티에이전트",
+        "Claude Design"
+      ],
+      "sources": [
+        {
+          "name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/05/19/anthropic-enhances-claude-managed-agents-with-two-new-privacy-and-security-features/"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Salesforce '에이전트 코워커' 베타 출시",
+      "summary": "세일즈포스가 'Agentforce Coworker' 베타를 5월 22일 공개하며 AI 에이전트를 사내 협업 도구에 직접 심었습니다. 영업·고객지원 담당자가 검색창에서 AI에게 일을 시키면 CRM 데이터를 가져오고 실행까지 대신해 줍니다. 한국 기업이 쓰는 세일즈포스 사용자에게도 곧 풀릴 기능이라, 영업·CS 조직의 업무 방식 변화가 예상됩니다.",
+      "eventDate": "2026-05-22",
+      "keywords": [
+        "Salesforce",
+        "Agentforce Coworker",
+        "엔터프라이즈 AI"
+      ],
+      "sources": [
+        {
+          "name": "TechTimes",
+          "url": "https://www.techtimes.com/articles/317075/20260524/ai-agent-business-models-split-four-ways-open-source-infrastructure-token-distribution-saas.htm"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "앤트로픽, 밀라노 사무소 개설… 유럽 매출 9배 성장",
+      "summary": "앤트로픽이 5월 말 이탈리아 밀라노에 신규 사무소를 열어 유럽 거점이 여섯 곳으로 늘었습니다. 회사는 유럽·중동·아프리카 권역의 환산 매출이 1년 새 9배, 대형 기업 고객은 10배 늘었다고 밝혔습니다. 한국 엔터프라이즈 시장에도 앤트로픽 진출 시점이 앞당겨질 가능성이 거론됩니다.",
+      "eventDate": "2026-05-25",
+      "keywords": [
+        "앤트로픽 밀라노",
+        "유럽 매출 9배",
+        "EMEA 확장"
+      ],
+      "sources": [
+        {
+          "name": "Global Banking & Finance Review",
+          "url": "https://www.globalbankingandfinance.com/anthropic-open-milan-office-expanding-push-europe/"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-open-milan-office-expanding-095020601.html"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "트럼프, 엔비디아 중국 수출 칩에 25% 관세 부과",
+      "summary": "트럼프 행정부가 엔비디아의 중국 수출 AI 칩 관세를 15%에서 25%로 올린 것이 확인되었습니다. 막아뒀던 H200 칩 판매를 풀어주는 대가로 수출액 4분의 1을 미국 정부가 가져가는 구조입니다. 한국 메모리에도 비슷한 관세가 적용될지가 다음 모니터링 포인트입니다.",
+      "eventDate": "2026-05-25",
+      "keywords": [
+        "트럼프 25% 관세",
+        "엔비디아 H200",
+        "미·중 칩 협상"
+      ],
+      "sources": [
+        {
+          "name": "IMD",
+          "url": "https://www.imd.org/future-readiness-indicator/home/technology-2026/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/graphics/2026-investment-outlooks/"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "과기정통부, 연내 국산 무료 AI 서비스 공모 임박",
+      "summary": "과학기술정보통신부가 누구나 무료로 쓸 수 있는 국산 AI 서비스 사업자를 곧 공식 공모합니다. 챗GPT·제미나이 의존도를 낮추고 연내 출시를 목표로 한다는 정책 의도로 알려졌습니다. 네이버 클로바, 카카오 카나나, 업스테이지 솔라에 정부 보장 사용자 풀이 열리는 기회입니다.",
+      "eventDate": "2026-05-25",
+      "keywords": [
+        "과기정통부",
+        "국산 무료 AI",
+        "클로바·카나나·솔라"
+      ],
+      "sources": [
+        {
+          "name": "SPTA Times Korea",
+          "url": "https://www.sptatimeskorea.com/post/제20260525-ti-01호-2026년-5월-25일-글로벌-반도체-산업-관련-주요-뉴스-요약"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "깃허브 공격 '메갈로돈', 5,561개 저장소 감염",
+      "summary": "5월 18일 발견된 깃허브 공급망 공격 '메갈로돈'이 단 6시간 만에 5,561개 저장소를 감염시켰습니다. 봇이 깃허브 액션 워크플로(빌드 자동화)를 몰래 고쳐 빌드 단계에서 클라우드 자격 증명을 빼냈습니다. 국내 핀테크·게임사 다수가 깃허브 액션을 쓰고 있어 무결성 점검과 비밀 키 교체가 급합니다.",
+      "eventDate": "2026-05-25",
+      "keywords": [
+        "메갈로돈",
+        "깃허브 공급망",
+        "5,561개 감염"
+      ],
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html"
+        },
+        {
+          "name": "Cybersecurity Dive",
+          "url": "https://www.cybersecuritydive.com/news/github-hacked-repository-data/820722/"
+        }
+      ]
+    }
+  ]
+}

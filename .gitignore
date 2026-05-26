@@ -3,4 +3,11 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 Thumbs.db
-
+*.swp
+*.swo
+.idea/
+.vscode/
+node_modules/
+Message/
+planning/
+data/*.bak-*

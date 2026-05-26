@@ -1,0 +1,191 @@
+{
+  "id": "2026-05-22",
+  "volumeNumber": 2,
+  "publishedAt": "2026-05-22T06:30:00+09:00",
+  "dayOfWeek": "금",
+  "coverage": {
+    "from": "2026-05-21",
+    "to": "2026-05-21",
+    "label": "5월 21일 (목)"
+  },
+  "newsItems": [
+    {
+      "order": 1,
+      "title": "앤트로픽, Claude Opus 4.7과 멀티에이전트",
+      "summary": "앤트로픽이 5월 21일 'Code with Claude'에서 새 모델과 멀티에이전트를 공개했습니다. 한 메인 에이전트가 작업을 쪼개 여러 전문 에이전트에 분배하고 공유 파일시스템에서 병렬로 일합니다. 디자인 자동화 'Claude Design'까지 함께 나와, 한국 SaaS·디자인 업계에 새 경쟁 압력이 됩니다.",
+      "eventDate": "2026-05-21",
+      "keywords": [
+        "Claude Opus 4.7",
+        "멀티에이전트",
+        "Claude Design"
+      ],
+      "sources": [
+        {
+          "name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
+        },
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/05/19/anthropic-enhances-claude-managed-agents-with-two-new-privacy-and-security-features/"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "앤트로픽, 밀라노 사무소 개설… 유럽 매출 9배",
+      "summary": "앤트로픽이 5월 21일 이탈리아 밀라노에 신규 사무소를 열며 런던·더블린·취리히·파리·뮌헨에 이은 여섯 번째 유럽 거점을 확보했습니다. 유럽·중동·아프리카 권역의 환산 매출이 1년 새 9배, 대형 기업 고객은 10배 늘었다고 밝혔습니다. 한국 엔터프라이즈 시장에도 앤트로픽 진출 시점이 앞당겨질 가능성이 거론됩니다.",
+      "eventDate": "2026-05-21",
+      "keywords": [
+        "앤트로픽 밀라노",
+        "유럽 매출 9배",
+        "EMEA 확장"
+      ],
+      "sources": [
+        {
+          "name": "Global Banking & Finance Review",
+          "url": "https://www.globalbankingandfinance.com/anthropic-open-milan-office-expanding-push-europe/"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-open-milan-office-expanding-095020601.html"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Claude, Excel·PPT·Word 정식 출시",
+      "summary": "앤트로픽이 5월 21일 Claude for Excel·PowerPoint·Word를 정식 출시했고 Outlook은 베타에 진입했습니다. 마이크로소프트 365 안에서 직접 Claude를 호출해 시트·문서·발표 자료를 생성·편집할 수 있는 구조입니다. 한국 대기업의 사내 자료 작성 워크플로에 직접적인 영향이 예상됩니다.",
+      "eventDate": "2026-05-21",
+      "keywords": [
+        "Claude for Excel·PPT·Word",
+        "MS 365 통합",
+        "Outlook 베타"
+      ],
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/05/13/anthropics-latest-claude-release-turns-your-mac-into-a-small-business-powerhouse/"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "토스, 원화 스테이블코인 발행 본격 검토 중",
+      "summary": "토스가 5월 21일 원화 기반 스테이블코인 발행·유통 사업을 본격 검토 중이라는 사실을 공식 확인했습니다. 미국 GENIUS Act 시행으로 글로벌 스테이블코인 시장이 1조 달러 규모로 커지는 흐름에 맞춘 결정입니다. 우리은행·신한은행 등 시중은행 발행 협의가 진행 중이라 한국 결제 인프라가 코인 기반으로 확장될 가능성이 큽니다.",
+      "eventDate": "2026-05-21",
+      "keywords": [
+        "토스 원화 스테이블코인",
+        "GENIUS Act",
+        "한국 결제 인프라"
+      ],
+      "sources": [
+        {
+          "name": "핀테크투데이",
+          "url": "http://www.fintechtoday.co.kr/news/articleView.html?idxno=2750"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "카카오페이, 구글·비자·코인베이스와 AI 결제 인프라",
+      "summary": "카카오페이가 5월 21일 구글·비자·코인베이스와 함께 AI 에이전트 결제 인프라 프로젝트에 공식 참여한다고 발표했습니다. AI 에이전트가 자동으로 결제·정산을 수행하는 구조가 핵심이며, 한국 기업으로는 카카오페이가 최초 합류입니다. 향후 챗GPT·Claude 안에서 결제 행위가 일어나는 새로운 커머스 흐름의 첫 진입점입니다.",
+      "eventDate": "2026-05-21",
+      "keywords": [
+        "카카오페이",
+        "AI 결제 인프라",
+        "에이전트 결제"
+      ],
+      "sources": [
+        {
+          "name": "핀테크투데이",
+          "url": "http://www.fintechtoday.co.kr/news/articleView.html?idxno=2746"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "현대차, SDV 페이스카 2026 하반기 공개 공식화",
+      "summary": "현대차그룹이 5월 21일 통합 인베스터데이에서 SDV(소프트웨어 정의 차량) 페이스카를 2026년 하반기 공개한다고 공식 확정했습니다. 중앙집중형 전기전자 아키텍처를 기반으로 차량 OTA·자율주행·앱 생태계를 한 번에 묶는 첫 시험차입니다. 'Atria(아트리아) AI' 자율주행 엔진과 42dot 합작 모델이 동시에 탑재됩니다.",
+      "eventDate": "2026-05-21",
+      "keywords": [
+        "현대차 SDV 페이스카",
+        "Atria AI",
+        "42dot 합작"
+      ],
+      "sources": [
+        {
+          "name": "뉴스1",
+          "url": "https://www.news1.kr/industry/general-industry/5674440"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Sierra, 시리즈C 1.3조 유치… 21조 밸류",
+      "summary": "브렛 테일러의 Sierra가 5월 21일 시리즈C 9억 5천만 달러(약 1조 3천억 원)를 유치했습니다. Tiger Global과 GV가 공동 주도했고 밸류에이션은 150억 달러(약 21조 원)에 이릅니다. 솔트룩스·업스테이지 같은 한국 LLM 기업의 글로벌 자본 유치에도 우호적 시그널입니다.",
+      "eventDate": "2026-05-21",
+      "keywords": [
+        "Sierra",
+        "9억 5천만 달러",
+        "21조 밸류"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Anthropic Q2 매출, 15조 페이스로 가속",
+      "summary": "앤트로픽이 5월 21일 분기 매출이 109억 달러(약 15조 원) 페이스에 도달했다고 공유했습니다. 작년 연간 매출을 2분기 한 분기 만에 넘어서는 수준이며 엔터프라이즈 계약 비중이 60%를 넘었습니다. Claude의 한국 기업 도입 사례도 늘어 SK·삼성·현대 일부 부서가 사내 도구로 채택했다는 후속 보도가 나옵니다.",
+      "eventDate": "2026-05-21",
+      "keywords": [
+        "Anthropic 매출 15조",
+        "엔터프라이즈 60%",
+        "한국 도입"
+      ],
+      "sources": [
+        {
+          "name": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/live/tech-stocks-today-anthropic-says-pentagon-ban-could-cost-it-billions-meta-announces-new-ai-chips-134456659.html"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Cerebras, IPO 공모가 160달러로 상향",
+      "summary": "AI 칩 스타트업 세레브라스(Cerebras)가 5월 21일 공모가를 주당 160달러(약 22만 원)로 올렸습니다. 원래 계획보다 공모 규모와 단가를 모두 끌어올린 결과로, 엔비디아 GPU 의존도를 줄이려는 AI 인프라 수요가 배경입니다. 리벨리온·퓨리오사AI·사피온코리아 같은 국내 AI 칩 스타트업 IPO에도 우호적 신호입니다.",
+      "eventDate": "2026-05-21",
+      "keywords": [
+        "Cerebras IPO",
+        "160달러 상향",
+        "AI 칩 IPO"
+      ],
+      "sources": [
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "MIT Tech Review: '코딩의 미래' 분석",
+      "summary": "MIT Tech Review가 5월 21일 'Code with Claude' 직후 글에서 자동 코딩의 현실을 짚었습니다. 멀티에이전트 코드 생성을 두고 \"개발자가 좋아하든 아니든 이것이 다음 단계\"라는 결론입니다. 한국 개발자 커뮤니티에서도 '바이브 코딩 시대'를 두고 찬반 토론이 활발해진 흐름입니다.",
+      "eventDate": "2026-05-21",
+      "keywords": [
+        "MIT Tech Review",
+        "Code with Claude 분석",
+        "바이브 코딩"
+      ],
+      "sources": [
+        {
+          "name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
+        }
+      ]
+    }
+  ]
+}
