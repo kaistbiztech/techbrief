@@ -324,9 +324,7 @@
     font-weight: 600;
     color: var(--ink-mute);
     letter-spacing: 0;
-  }
-  .news-event-date::before {
-    content: "📅 ";
+    margin-top: -4px;
   }
   .news-title {
     font-size: clamp(22px, 2.4vw, 28px);
@@ -372,6 +370,89 @@
     color: #fff;
   }
   .detail-cta svg { width: 12px; height: 12px; }
+
+  /* ============ BRIEF SHARE ACTIONS ============ */
+  .brief-actions {
+    max-width: 1100px;
+    margin: 28px auto 0;
+    padding: 0 32px;
+  }
+  .brief-actions-inner {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 22px 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .brief-actions-title {
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+  .brief-actions-subtitle {
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-mute);
+    letter-spacing: -0.005em;
+  }
+  .brief-actions-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+  .brief-action-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    min-height: 36px;
+    border: 1px solid var(--kaist-blue);
+    background: #fff;
+    color: var(--kaist-blue);
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .brief-action-btn:hover {
+    background: var(--kaist-blue);
+    color: #fff;
+  }
+  .brief-action-btn:disabled {
+    cursor: default;
+    border-color: var(--rule);
+    background: var(--rule-soft);
+    color: var(--ink-mute);
+  }
+  .brief-action-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+  .brief-action-btn.primary {
+    background: var(--kaist-blue);
+    color: #fff;
+  }
+  .brief-action-btn.primary:hover {
+    background: var(--kaist-blue-deep);
+    border-color: var(--kaist-blue-deep);
+  }
+  .brief-action-status {
+    min-height: 18px;
+    margin-top: 10px;
+    padding: 0 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink-mute);
+  }
 
   /* ============ FLOATING ACTION BUTTONS (우측 하단) ============ */
   .fab-stack {
@@ -589,6 +670,20 @@
     .detail-summary { font-size: 16px; line-height: 1.7; }
     .back-to-toc { margin-left: 0; }
 
+    .brief-actions { padding: 0 22px; }
+    .brief-actions-inner {
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 18px 4px 20px;
+    }
+    .brief-actions-buttons {
+      justify-content: flex-start;
+      width: 100%;
+    }
+    .brief-action-btn {
+      flex: 1 1 150px;
+    }
+
     .archive { padding: 0 22px 56px; margin-top: 56px; }
     .archive-row {
       padding: 14px 4px;
@@ -646,6 +741,31 @@
 
 <!-- CARD LIST: 전부 펼친 상태 -->
 <main class="card-list" id="cardList"></main>
+
+<!-- BRIEF SHARE ACTIONS -->
+<section class="brief-actions" id="briefActions" hidden aria-label="브리프 공유 도구">
+  <div class="brief-actions-inner">
+    <div>
+      <div class="brief-actions-title">오늘의 브리프 공유</div>
+      <div class="brief-actions-subtitle">이미지와 메시지용 텍스트를 내려받거나 복사할 수 있습니다</div>
+      <div class="brief-action-status" id="briefActionStatus" aria-live="polite"></div>
+    </div>
+    <div class="brief-actions-buttons">
+      <a class="brief-action-btn primary" id="briefImageDownload" href="#" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        브리프 이미지 다운로드
+      </a>
+      <button type="button" class="brief-action-btn" id="briefImageCopy">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg>
+        브리프 이미지 복사
+      </button>
+      <button type="button" class="brief-action-btn" id="briefTextCopy">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        텍스트 복사
+      </button>
+    </div>
+  </div>
+</section>
 
 <!-- ARCHIVE -->
 <section class="archive">
@@ -721,6 +841,50 @@
   }
   function pad2(n) { return String(n).padStart(2, '0'); }
   function formatDate(id) { return id.replaceAll('-', '.'); }
+
+  function absoluteUrl(path) {
+    return new URL(path, location.href).href;
+  }
+
+  function editionUrl(edition) {
+    return absoluteUrl(`${BASE_PATH}date/${edition.id}/`);
+  }
+
+  function publicCardUrl(edition) {
+    return `${BASE_PATH}date/${edition.id}/card.png`;
+  }
+
+  function buildBriefText(edition) {
+    const lines = [
+      'KAIST 경영대학 테크 네트워크',
+      '데일리 테크 브리프',
+      `${formatDate(edition.id)} ${edition.dayOfWeek}요일`,
+      '',
+      `전체 보기: ${editionUrl(edition)}`,
+    ];
+
+    const keywords = (edition.newsItems || []).flatMap(item => item.keywords || []);
+    if (keywords.length > 0) {
+      lines.push('', '오늘의 키워드', keywords.join(' · '));
+    }
+
+    lines.push('', '━━━━━━━━━━━━━━━━━━━', '');
+    (edition.newsItems || []).forEach(item => {
+      lines.push(`${pad2(item.order)}. ${item.title}`);
+      lines.push(item.summary);
+      lines.push('');
+    });
+    lines.push('━━━━━━━━━━━━━━━━━━━');
+    lines.push(`전체 보기: ${editionUrl(edition)}`);
+    lines.push('KAIST 경영대학 테크 네트워크');
+    return lines.join('\n');
+  }
+
+  function setBriefActionStatus(message) {
+    const status = document.getElementById('briefActionStatus');
+    if (!status) return;
+    status.textContent = message || '';
+  }
 
   // 후보 날짜 ID 목록 (KST 기준, 오늘부터 거꾸로)
   function candidateIds(days = LOOKBACK_DAYS) {
@@ -829,11 +993,9 @@
     const list = document.getElementById('cardList');
     list.innerHTML = '';
     const extSvg = document.getElementById('icon-external').innerHTML;
-    const arrSvg = document.getElementById('icon-arrow').innerHTML;
 
     edition.newsItems.forEach(item => {
       const sources = getSources(item);
-      const primary = sources[0];
 
       const ctaHtml = sources.length > 0
         ? `<div class="detail-cta-group">
@@ -849,16 +1011,16 @@
       card.className = 'news-card';
       card.id = `news-${item.order}`;
       const eventDateHtml = item.eventDate
-        ? `<span class="news-event-date">${esc(item.eventDate.replaceAll('-', '.'))}</span>`
+        ? `<div class="news-event-date">${esc(item.eventDate.replaceAll('-', '.'))}</div>`
         : '';
 
       card.innerHTML = `
         <div class="news-card-head">
           <div class="news-num-row">
             <div class="news-num">${pad2(item.order)}</div>
-            ${eventDateHtml}
           </div>
           <div class="news-title">${esc(item.title)}</div>
+          ${eventDateHtml}
         </div>
         <div class="news-detail-inner">
           <p class="detail-summary">${esc(item.summary)}</p>
@@ -868,6 +1030,17 @@
       list.appendChild(card);
     });
     document.getElementById('cardsDivider').style.display = '';
+  }
+
+  function renderShareActions(edition) {
+    const section = document.getElementById('briefActions');
+    const download = document.getElementById('briefImageDownload');
+    if (!section || !download) return;
+    const cardUrl = publicCardUrl(edition);
+    download.href = cardUrl;
+    download.download = `daily-tech-brief-${edition.id}.png`;
+    section.hidden = false;
+    setBriefActionStatus('');
   }
 
   function renderArchive(editions, latestId) {
@@ -908,14 +1081,17 @@
   }
 
   function renderEdition(edition) {
+    _activeEdition = edition;
     renderDateBar(edition);
     renderTOC(edition);
     renderCards(edition);
+    renderShareActions(edition);
   }
 
   // 발견된 편집본 캐시
   let _editions = [];
   let _latestId = null;
+  let _activeEdition = null;
 
   // URL path → 일자 ID. "/dailytechbrief/date/2026-05-25/" → "2026-05-25". 없으면 null(최신).
   function pathToId() {
@@ -1003,6 +1179,37 @@
       document.getElementById('fabDate').addEventListener('click', () => {
         const archive = document.querySelector('.archive');
         if (archive) archive.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+      document.getElementById('briefTextCopy').addEventListener('click', async () => {
+        if (!_activeEdition) return;
+        try {
+          await navigator.clipboard.writeText(buildBriefText(_activeEdition));
+          setBriefActionStatus('브리프 텍스트를 클립보드에 복사했습니다.');
+        } catch (err) {
+          console.error(err);
+          setBriefActionStatus('브라우저 권한 때문에 텍스트 복사에 실패했습니다.');
+        }
+      });
+
+      document.getElementById('briefImageCopy').addEventListener('click', async () => {
+        if (!_activeEdition) return;
+        if (!navigator.clipboard || typeof ClipboardItem === 'undefined') {
+          setBriefActionStatus('이 브라우저에서는 이미지 복사를 지원하지 않습니다. 이미지 다운로드를 이용해 주세요.');
+          return;
+        }
+        try {
+          const res = await fetch(publicCardUrl(_activeEdition), { cache: 'no-store' });
+          if (!res.ok) throw new Error('card image not found');
+          const blob = await res.blob();
+          await navigator.clipboard.write([
+            new ClipboardItem({ [blob.type || 'image/png']: blob })
+          ]);
+          setBriefActionStatus('브리프 이미지를 클립보드에 복사했습니다.');
+        } catch (err) {
+          console.error(err);
+          setBriefActionStatus('이미지 복사에 실패했습니다. 브라우저가 차단하면 이미지 다운로드를 이용해 주세요.');
+        }
       });
 
       // FAB: 목차 영역이 화면에 보일 때는 숨김 (이미 거기 있음)

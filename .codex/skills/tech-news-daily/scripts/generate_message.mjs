@@ -176,10 +176,13 @@ fs.mkdirSync(dateDir, { recursive: true });
 
 const textPath = path.join(messageDir, "text.txt");
 const cardPath = path.join(messageDir, "card.png");
+const publicCardPath = path.join(dateDir, "card.png");
 const ogPath = path.join(dateDir, "og.png");
 
 fs.writeFileSync(textPath, buildText(edition), "utf8");
 console.log(`[OK] wrote ${path.relative(projectRoot, textPath)}`);
 renderWithPowerShell(edition, projectRoot, cardPath, ogPath);
+fs.copyFileSync(cardPath, publicCardPath);
 console.log(`[OK] wrote ${path.relative(projectRoot, cardPath)}`);
+console.log(`[OK] wrote ${path.relative(projectRoot, publicCardPath)}`);
 console.log(`[OK] wrote ${path.relative(projectRoot, ogPath)}`);

@@ -127,11 +127,12 @@ def _capture(browser, template_path: Path, edition: dict, viewport: dict, out_pa
     ctx.close()
 
 
-def generate_cards(edition: dict, kakao_out: Path, og_out: Path) -> None:
+def generate_cards(edition: dict, kakao_out: Path, public_card_out: Path, og_out: Path) -> None:
     """
     카톡 앱 첨부용 9:16 세로 카드 + 메신저 OG 1.91:1 가로 카드를 각각 캡처.
 
     - kakao_out: 1080×1920 (Message/<id>/card.png)
+    - public_card_out: 1080×1920 (date/<id>/card.png)
     - og_out: 1200×630 (date/<id>/og.png)
     """
     from playwright.sync_api import sync_playwright
@@ -141,6 +142,8 @@ def generate_cards(edition: dict, kakao_out: Path, og_out: Path) -> None:
         browser = p.chromium.launch()
         _capture(browser, KAKAO_TEMPLATE, edition,
                  {"width": 1080, "height": 1920}, kakao_out, logo_url)
+        public_card_out.parent.mkdir(parents=True, exist_ok=True)
+        public_card_out.write_bytes(kakao_out.read_bytes())
         _capture(browser, OG_TEMPLATE, edition,
                  {"width": 1200, "height": 630}, og_out, logo_url)
         browser.close()
@@ -182,9 +185,11 @@ def main() -> int:
 
     # 2) 카드 PNG: 카톡용(9:16) + OG용(1.91:1) 각각 캡처
     card_path = message_dir / "card.png"
+    public_card_path = date_dir / "card.png"
     og_path = date_dir / "og.png"
-    generate_cards(edition, kakao_out=card_path, og_out=og_path)
+    generate_cards(edition, kakao_out=card_path, public_card_out=public_card_path, og_out=og_path)
     print(f"[OK] wrote {card_path.relative_to(PROJECT_ROOT)}")
+    print(f"[OK] wrote {public_card_path.relative_to(PROJECT_ROOT)}")
     print(f"[OK] wrote {og_path.relative_to(PROJECT_ROOT)}")
 
     return 0
