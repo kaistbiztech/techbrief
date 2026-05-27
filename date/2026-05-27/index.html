@@ -453,6 +453,13 @@
     font-weight: 600;
     color: var(--ink-mute);
   }
+  .brief-action-status.success {
+    color: var(--kaist-blue);
+  }
+  .brief-action-btn.copied {
+    background: var(--kaist-blue);
+    color: #fff;
+  }
 
   /* ============ FLOATING ACTION BUTTONS (우측 하단) ============ */
   .fab-stack {
@@ -751,13 +758,9 @@
       <div class="brief-action-status" id="briefActionStatus" aria-live="polite"></div>
     </div>
     <div class="brief-actions-buttons">
-      <a class="brief-action-btn primary" id="briefImageDownload" href="#" download>
+      <button type="button" class="brief-action-btn primary" id="briefImageSave">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        브리프 이미지 다운로드
-      </a>
-      <button type="button" class="brief-action-btn" id="briefImageCopy">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg>
-        브리프 이미지 복사
+        이미지 저장/공유
       </button>
       <button type="button" class="brief-action-btn" id="briefTextCopy">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
@@ -880,10 +883,47 @@
     return lines.join('\n');
   }
 
-  function setBriefActionStatus(message) {
+  function setBriefActionStatus(message, type = '') {
     const status = document.getElementById('briefActionStatus');
     if (!status) return;
     status.textContent = message || '';
+    status.className = `brief-action-status${type ? ` ${type}` : ''}`;
+  }
+
+  function downloadFile(url, filename) {
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+  }
+
+  async function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+    const area = document.createElement('textarea');
+    area.value = text;
+    area.setAttribute('readonly', '');
+    area.style.position = 'fixed';
+    area.style.left = '-9999px';
+    document.body.appendChild(area);
+    area.select();
+    const ok = document.execCommand('copy');
+    area.remove();
+    if (!ok) throw new Error('copy failed');
+  }
+
+  function showCopiedFeedback(button, label = '복사 완료') {
+    const original = button.textContent.trim();
+    button.classList.add('copied');
+    button.lastChild.textContent = ` ${label}`;
+    setTimeout(() => {
+      button.classList.remove('copied');
+      button.lastChild.textContent = ` ${original}`;
+    }, 1800);
   }
 
   // 후보 날짜 ID 목록 (KST 기준, 오늘부터 거꾸로)
@@ -1034,11 +1074,7 @@
 
   function renderShareActions(edition) {
     const section = document.getElementById('briefActions');
-    const download = document.getElementById('briefImageDownload');
-    if (!section || !download) return;
-    const cardUrl = publicCardUrl(edition);
-    download.href = cardUrl;
-    download.download = `daily-tech-brief-${edition.id}.png`;
+    if (!section) return;
     section.hidden = false;
     setBriefActionStatus('');
   }
@@ -1183,32 +1219,41 @@
 
       document.getElementById('briefTextCopy').addEventListener('click', async () => {
         if (!_activeEdition) return;
+        const button = document.getElementById('briefTextCopy');
         try {
-          await navigator.clipboard.writeText(buildBriefText(_activeEdition));
-          setBriefActionStatus('브리프 텍스트를 클립보드에 복사했습니다.');
+          await copyText(buildBriefText(_activeEdition));
+          showCopiedFeedback(button);
+          setBriefActionStatus('텍스트가 클립보드에 복사되었습니다.', 'success');
         } catch (err) {
           console.error(err);
           setBriefActionStatus('브라우저 권한 때문에 텍스트 복사에 실패했습니다.');
         }
       });
 
-      document.getElementById('briefImageCopy').addEventListener('click', async () => {
+      document.getElementById('briefImageSave').addEventListener('click', async () => {
         if (!_activeEdition) return;
-        if (!navigator.clipboard || typeof ClipboardItem === 'undefined') {
-          setBriefActionStatus('이 브라우저에서는 이미지 복사를 지원하지 않습니다. 이미지 다운로드를 이용해 주세요.');
-          return;
-        }
+        const url = publicCardUrl(_activeEdition);
+        const filename = `daily-tech-brief-${_activeEdition.id}.png`;
         try {
-          const res = await fetch(publicCardUrl(_activeEdition), { cache: 'no-store' });
+          const res = await fetch(url, { cache: 'no-store' });
           if (!res.ok) throw new Error('card image not found');
           const blob = await res.blob();
-          await navigator.clipboard.write([
-            new ClipboardItem({ [blob.type || 'image/png']: blob })
-          ]);
-          setBriefActionStatus('브리프 이미지를 클립보드에 복사했습니다.');
+          const file = new File([blob], filename, { type: blob.type || 'image/png' });
+          if (navigator.canShare && navigator.canShare({ files: [file] })) {
+            await navigator.share({
+              files: [file],
+              title: '데일리 테크 브리프',
+              text: `${formatDate(_activeEdition.id)} ${_activeEdition.dayOfWeek}요일 브리프`
+            });
+            setBriefActionStatus('공유 메뉴를 열었습니다. iPhone에서는 이미지 저장을 선택해 사진 앱에 저장할 수 있습니다.', 'success');
+            return;
+          }
+          downloadFile(url, filename);
+          setBriefActionStatus('이미지 다운로드를 시작했습니다. iPhone에서는 파일이 열리면 공유 버튼에서 이미지 저장을 선택해 주세요.', 'success');
         } catch (err) {
           console.error(err);
-          setBriefActionStatus('이미지 복사에 실패했습니다. 브라우저가 차단하면 이미지 다운로드를 이용해 주세요.');
+          window.open(url, '_blank', 'noopener');
+          setBriefActionStatus('이미지를 새 탭으로 열었습니다. iPhone에서는 이미지를 길게 누르거나 공유 버튼으로 저장해 주세요.');
         }
       });
 
