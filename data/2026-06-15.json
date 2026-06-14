@@ -1,0 +1,223 @@
+{
+  "id": "2026-06-15",
+  "volumeNumber": 5,
+  "publishedAt": "2026-06-15T06:30:00+09:00",
+  "dayOfWeek": "월",
+  "coverage": {
+    "from": "2026-06-12",
+    "to": "2026-06-14",
+    "label": "6월 12~14일 (금·토·일)"
+  },
+  "newsItems": [
+    {
+      "order": 1,
+      "title": "SpaceX, IPO 첫날 시총 2.3조 달러",
+      "summary": "SpaceX가 6월 12일 나스닥 상장 첫날 공모가 135달러보다 19% 오른 160.95달러에 마감했습니다. 장중 시가총액은 2조3000억 달러, 약 3170조 원에 이르며 AI 컴퓨트 임대와 위성망 가치가 함께 반영됐습니다. 한국 우주·통신·AI 인프라 기업에는 위성 네트워크와 데이터센터를 묶는 자본 시장 평가 기준이 더 중요해졌습니다.",
+      "eventDate": "2026-06-12",
+      "keywords": [
+        "SpaceX IPO",
+        "2.3조 달러",
+        "AI 컴퓨트"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/12/spacex-opens-at-150-an-11-pop-for-the-most-anticipated-debut-in-history/"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Prometheus, 베이조스 AI 120억 달러 조달",
+      "summary": "Jeff Bezos가 이끄는 산업 AI 스타트업 Prometheus가 6월 12일 120억 달러, 약 16조6000억 원 규모 투자를 공개했습니다. 기업가치는 410억 달러, 약 56조6000억 원으로 평가됐고 제트엔진과 의료기기 같은 물리 제품 설계를 겨냥합니다. 제조 강국인 한국에는 생성형 AI 경쟁이 문서와 코드에서 설계·시제품·양산 공정으로 옮겨가는 신호입니다.",
+      "eventDate": "2026-06-12",
+      "keywords": [
+        "Prometheus",
+        "120억 달러",
+        "산업 AI"
+      ],
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "삼성전자, 구글 TPU 10세대 2나노 논의",
+      "summary": "삼성전자가 구글의 차세대 인공지능 칩인 10세대 TPU 일부를 2나노 공정에서 맡는 방안을 논의 중이라고 6월 12일 보도됐습니다. 구글은 2028년 양산을 목표로 TSMC 병목을 줄일 대안 파운드리를 찾고 있습니다. 삼성 파운드리에는 테슬라와 엔비디아에 이어 구글까지 고객 다변화 가능성을 보여주는 전략 카드입니다.",
+      "eventDate": "2026-06-12",
+      "keywords": [
+        "삼성전자 구글 TPU",
+        "10세대 TPU",
+        "2나노"
+      ],
+      "sources": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20260612000003"
+        },
+        {
+          "name": "한국경제",
+          "url": "https://www.hankyung.com/article/2026061237311"
+        },
+        {
+          "name": "디지털데일리",
+          "url": "https://www.ddaily.co.kr/page/view/2026061210373266177"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "노무라, 삼성 59만·SK 400만원 제시",
+      "summary": "노무라증권은 6월 12일 한국 반도체 슈퍼사이클이 초입이라며 삼성전자 목표가 59만원과 SK하이닉스 400만원을 제시했습니다. AI 메모리 수요와 MSCI 선진시장 관찰대상국 편입 가능성 60%를 함께 근거로 들었습니다. 한국 테크 투자자에게는 HBM 호황이 개별 종목을 넘어 증시 재평가 논리로 번지는 장면입니다.",
+      "eventDate": "2026-06-12",
+      "keywords": [
+        "노무라증권",
+        "삼성 59만원",
+        "SK 400만원"
+      ],
+      "sources": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20260612000313"
+        },
+        {
+          "name": "한국경제",
+          "url": "https://www.hankyung.com/article/2026061237561"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "오픈AI, 올트먼 14~15일 방한 연기",
+      "summary": "오픈AI는 6월 12일 샘 올트먼 CEO의 14~15일 한국 방문을 개인 사정으로 연기한다고 밝혔습니다. 예정됐던 삼성전자, 네이버, 카카오 경영진 회동은 미뤄졌지만 오픈AI는 한국 협력은 계속된다고 설명했습니다. 국내 플랫폼과 제조 기업에는 글로벌 AI 동맹이 단발 이벤트보다 지속 협상 체계로 관리돼야 한다는 점을 보여줍니다.",
+      "eventDate": "2026-06-12",
+      "keywords": [
+        "오픈AI 방한 연기",
+        "14~15일",
+        "삼성 네이버 카카오"
+      ],
+      "sources": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260612170931"
+        },
+        {
+          "name": "매일경제",
+          "url": "https://www.mk.co.kr/news/it/12072851"
+        },
+        {
+          "name": "블로터",
+          "url": "https://www.bloter.net/news/articleView.html?idxno=665345"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "SK하이닉스, 챗GPT 도입 3종 AI 검토",
+      "summary": "SK하이닉스가 6월 12일 챗GPT를 포함한 외부 생성형 AI 도입을 검토한다고 알려졌습니다. 삼성전자도 챗GPT, 제미나이, 클로드를 업무에 쓰기로 하면서 국내 반도체 대기업의 AI 활용 방식이 빠르게 바뀌고 있습니다. 연구개발과 의사결정 조직은 생산성보다 먼저 보안 교육, 데이터 권한, 모델 사용량 통제를 설계해야 합니다.",
+      "eventDate": "2026-06-12",
+      "keywords": [
+        "SK하이닉스",
+        "챗GPT",
+        "3종 AI"
+      ],
+      "sources": [
+        {
+          "name": "매일경제",
+          "url": "https://stock.mk.co.kr/news/view/1103271"
+        },
+        {
+          "name": "매일경제",
+          "url": "https://www.mk.co.kr/news/business/12072519"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "구글, AI 피싱 250만 문자 소송",
+      "summary": "구글은 6월 12일 중국계 사이버 범죄 조직이 AI로 피싱 문자를 자동 생성했다며 미국 법원에 소송을 냈습니다. 구글은 2주 동안 250만 건의 문자와 9000개 가짜 사이트가 쓰였고 19억 달러, 약 2조6000억 원 손실 위험이 있었다고 설명했습니다. 한국 금융·통신사는 생성형 AI 보안 사고를 고객 인증, 도메인 차단, 문자 필터링의 통합 문제로 봐야 합니다.",
+      "eventDate": "2026-06-12",
+      "keywords": [
+        "구글 AI 피싱",
+        "250만 문자",
+        "19억 달러"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts/"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "앤트로픽, Fable·Mythos 5 해외 차단",
+      "summary": "앤트로픽은 6월 12일 미국 정부 지시에 따라 Fable 5와 Mythos 5 모델 접근을 전 세계적으로 중단했다고 밝혔습니다. 보도에 따르면 Mythos는 보안 취약점을 빠르게 찾는 모델이고, 약 50개 검증 기관에 제한 제공되던 프로젝트와 연결돼 있었습니다. 인도와 한국 기업에는 프런티어 모델 의존도가 규제와 수출통제 리스크로 바로 전환될 수 있음을 보여줍니다.",
+      "eventDate": "2026-06-12",
+      "keywords": [
+        "앤트로픽 Fable 5",
+        "Mythos 5",
+        "50개 기관"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Cohere, 30B 코딩 모델 North 공개",
+      "summary": "Cohere는 6월 12일 개발자용 오픈소스 코딩 모델 North Mini Code를 공개했습니다. 이 모델은 300억 전체 파라미터 중 30억 개만 활성화하는 구조이며 Apache 2.0 라이선스로 제공됩니다. 기업 개발 조직은 폐쇄형 코딩 에이전트와 온프레미스 소버린 AI 사이의 비용·보안 선택지를 새로 비교하게 됐습니다.",
+      "eventDate": "2026-06-12",
+      "keywords": [
+        "Cohere North",
+        "30B 코딩 모델",
+        "Apache 2.0"
+      ],
+      "sources": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260611170458"
+        },
+        {
+          "name": "Cohere",
+          "url": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "The Information, AI 지분매각 140억 달러 분석",
+      "summary": "The Information은 6월 14일 OpenAI와 Anthropic 초기 임직원·투자자가 5년 동안 140억 달러, 약 19조3000억 원어치 지분을 현금화했다고 분석했습니다. 프런티어 AI 기업의 상장 전 유동화가 커지면서 보상, 인재 유지, 거버넌스 문제가 동시에 커지고 있습니다. 국내 AI 스타트업과 투자자는 밸류에이션뿐 아니라 2차 거래와 장기 인센티브 설계까지 투자 조건으로 봐야 합니다.",
+      "eventDate": "2026-06-14",
+      "keywords": [
+        "The Information",
+        "140억 달러",
+        "AI 지분매각"
+      ],
+      "sources": [
+        {
+          "name": "The Information",
+          "url": "https://www.theinformation.com/articles/openai-anthropic-employees-cashed-14-billion"
+        }
+      ]
+    }
+  ]
+}
