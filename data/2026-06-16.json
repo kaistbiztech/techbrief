@@ -1,0 +1,199 @@
+{
+  "id": "2026-06-16",
+  "volumeNumber": 6,
+  "publishedAt": "2026-06-16T06:30:00+09:00",
+  "dayOfWeek": "화",
+  "coverage": {
+    "from": "2026-06-15",
+    "to": "2026-06-15",
+    "label": "6월 15일(월)"
+  },
+  "newsItems": [
+    {
+      "order": 1,
+      "title": "Nvidia, AI 채권 200억 달러 조달",
+      "summary": "Nvidia가 6월 15일 최소 200억 달러, 약 27조6000억 원 규모의 회사채 발행을 추진한다고 보도됐습니다. 이번 조달은 2028년부터 2056년까지 만기가 나뉘는 7개 트랜치 구조로, AI 인프라와 생태계 투자 부담이 부채 시장까지 확장되고 있음을 보여줍니다. 한국 반도체와 데이터센터 기업에는 고객사의 현금흐름뿐 아니라 자본조달 비용이 AI 수요의 지속성을 가늠하는 새 지표가 됐습니다.",
+      "eventDate": "2026-06-15",
+      "keywords": [
+        "Nvidia",
+        "200억 달러",
+        "AI 채권"
+      ],
+      "sources": [
+        {
+          "name": "The Information",
+          "url": "https://www.theinformation.com/"
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/even-nvidia-is-joining-the-ai-borrowing-spree-with-a-historic-20-billion-bond-deal-a054cff4"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Salesforce, Fin 36억 달러 인수",
+      "summary": "Salesforce가 6월 15일 고객응대 AI 에이전트 스타트업 Fin을 36억 달러, 약 5조 원에 인수하기로 했다고 보도됐습니다. Fin은 Intercom 계열에서 출발한 고객 서비스 에이전트 플랫폼으로, CRM 업체들이 챗봇을 넘어 업무 실행형 에이전트를 직접 품으려는 흐름을 상징합니다. 국내 SaaS와 콜센터 자동화 기업에는 기능 제휴보다 데이터와 워크플로를 함께 장악하는 인수 전략이 더 강한 경쟁 압력으로 다가옵니다.",
+      "eventDate": "2026-06-15",
+      "keywords": [
+        "Salesforce",
+        "Fin",
+        "36억 달러"
+      ],
+      "sources": [
+        {
+          "name": "The Information",
+          "url": "https://www.theinformation.com/briefings/salesforce-acquire-customer-ai-agent-fin-3-6-billion"
+        },
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Sarvam, 2억3400만 달러 AI 유니콘",
+      "summary": "인도 AI 스타트업 Sarvam이 6월 15일 HCLTech 주도 라운드에서 2억3400만 달러, 약 3230억 원을 조달하며 유니콘 반열에 올랐습니다. Sarvam은 인도 언어와 주권형 AI 수요를 겨냥한 모델과 애플리케이션을 앞세워 미국 중심 파운데이션 모델 경쟁의 지역화 가능성을 보여줍니다. 한국 AI 기업도 범용 모델 자체보다 산업 언어, 공공 데이터, 로컬 배포 역량을 결합한 시장 진입 전략을 다시 점검할 필요가 있습니다.",
+      "eventDate": "2026-06-15",
+      "keywords": [
+        "Sarvam",
+        "2억3400만 달러",
+        "소버린 AI"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "NewCore, AI 에이전트 신원 6600만 달러",
+      "summary": "NewCore가 6월 15일 AI 에이전트의 인증과 권한 관리를 표방하며 6600만 달러, 약 910억 원 투자 유치를 공개했습니다. 기업이 에이전트를 직원처럼 배치할수록 사람 계정, 서비스 계정, 봇 계정의 경계가 흐려져 신원 거버넌스가 핵심 보안 지출 항목으로 떠오르고 있습니다. 금융과 제조처럼 권한 통제가 엄격한 한국 기업에는 모델 성능보다 누가 무엇을 실행했는지 증명하는 체계가 도입의 병목이 될 수 있습니다.",
+      "eventDate": "2026-06-15",
+      "keywords": [
+        "NewCore",
+        "6600만 달러",
+        "AI 에이전트 신원"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "삼성전자, HPC 517대로 검증 15일→2일",
+      "summary": "삼성전자가 6월 15일 DX 부문 제품 개발을 위해 상암 데이터센터에 고성능컴퓨팅 서버 517대를 구축하고 내부 서비스를 시작한 것으로 전해졌습니다. 디지털트윈 기반 시뮬레이션으로 일부 검증 기간을 15일에서 2일로 줄이는 것이 목표이며, 제조 AX가 연구개발과 양산 전 단계로 확장되는 사례입니다. 한국 제조업에는 AI가 사무 자동화를 넘어 출시 주기, 품질 신뢰성, 설계 검증 비용을 직접 바꾸는 경쟁 변수로 이동하고 있습니다.",
+      "eventDate": "2026-06-15",
+      "keywords": [
+        "삼성전자",
+        "HPC 517대",
+        "15일 2일"
+      ],
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20260615029500003"
+        },
+        {
+          "name": "뉴시스",
+          "url": "https://www.newsis.com/business/list/?cid=13000&scid=10414"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "산업부, 국산 AI칩 제조 TF 1개 출범",
+      "summary": "산업통상자원부가 6월 15일 국산 온디바이스 AI칩을 설계부터 제조와 검증까지 지원하는 제조지원 태스크포스를 출범시켰습니다. 팹리스, 설계자산, 파운드리, 패키징을 묶어 양산 병목을 줄이려는 시도이며 M.AX 전략의 반도체 실행축으로 해석됩니다. 국내 AI 반도체 스타트업에는 모델 성능만큼 공정 접근성, 검증 인프라, 초기 고객 확보가 기업가치의 핵심 질문이 되고 있습니다.",
+      "eventDate": "2026-06-15",
+      "keywords": [
+        "산업부",
+        "AI칩",
+        "1개 TF"
+      ],
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20260615054400003"
+        },
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20260614000088"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "SK쉴더스, AI 레드팀 1위 기록",
+      "summary": "SK쉴더스는 6월 15일 글로벌 AI 레드팀 해킹대회 Judgement Day에서 EQST 소속 김병현 선임이 최종 1위를 차지했다고 밝혔습니다. 마준영, 김신우 선임도 상위권에 이름을 올리며 한국 보안 기업의 AI 취약점 탐지 역량을 드러냈습니다. 기업 고객이 생성형 AI를 업무에 붙이는 속도가 빨라질수록 레드팀 검증과 공격 시나리오 축적은 보안 예산의 설득력을 높이는 근거가 됩니다.",
+      "eventDate": "2026-06-15",
+      "keywords": [
+        "SK쉴더스",
+        "AI 레드팀",
+        "1위"
+      ],
+      "sources": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260615225818"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "삼성전자, C랩 9기 4개 지역 모집",
+      "summary": "삼성전자가 6월 15일부터 26일까지 C랩 아웃사이드 9기를 서울, 대구, 경북, 광주 4개 지역에서 공개 모집합니다. 모집 분야는 AI, 디지털헬스, 로봇, 소재부품, IoT, 모빌리티 등으로 시리즈 B 이하 국내 스타트업이 대상입니다. 대기업 오픈이노베이션이 투자 혹한기 스타트업의 판로와 기술검증 채널로 중요해지는 만큼 지역 기반 딥테크 생태계에도 의미가 있습니다.",
+      "eventDate": "2026-06-15",
+      "keywords": [
+        "삼성전자 C랩",
+        "9기",
+        "4개 지역"
+      ],
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20260615028300003"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Stratechery, AI 학습루프 4요소 제시",
+      "summary": "Stratechery는 6월 15일 Anthropic의 안전 전략을 분석하며 기업의 미래 경쟁력이 모델 선택보다 사람과 AI가 함께 학습을 축적하는 루프에 달려 있다고 진단했습니다. 글은 지식재산 통제, 피드백 축적, 조직 학습, 에이전트 아키텍처라는 4가지 요소를 기업 AI 도입의 핵심 논점으로 제시했습니다. KAIST MBA 독자에게는 AI를 비용 절감 도구가 아니라 조직 역량을 복리로 쌓는 운영체계로 설계해야 한다는 토론거리를 제공합니다.",
+      "eventDate": "2026-06-15",
+      "keywords": [
+        "Stratechery",
+        "4요소",
+        "AI 학습루프"
+      ],
+      "sources": [
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/2026/anthropics-safety-superpower/"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "과기정통부, 연구24 10개 시스템 통합",
+      "summary": "과학기술정보통신부는 6월 15일부터 6개 기관에 흩어져 있던 주요 연구개발 지원 시스템 10개를 통합 로그인 사이트 연구24로 연결했습니다. 연구자는 과제 수행 과정에서 반복 로그인과 기관별 접속 절차를 줄일 수 있고, 정부 R&D 행정 데이터의 연결성도 높아질 전망입니다. 공공 디지털 전환은 화려한 AI 모델보다 사용자 접점과 데이터 흐름을 정리하는 작은 통합에서 생산성 효과가 먼저 나타난다는 점을 보여줍니다.",
+      "eventDate": "2026-06-15",
+      "keywords": [
+        "과기정통부",
+        "연구24",
+        "10개 시스템"
+      ],
+      "sources": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20260612181659"
+        }
+      ]
+    }
+  ]
+}
