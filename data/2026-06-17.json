@@ -1,0 +1,195 @@
+{
+  "id": "2026-06-17",
+  "volumeNumber": 7,
+  "publishedAt": "2026-06-17T06:30:00+09:00",
+  "dayOfWeek": "수",
+  "coverage": {
+    "from": "2026-06-16",
+    "to": "2026-06-16",
+    "label": "6월 16일(화)"
+  },
+  "newsItems": [
+    {
+      "order": 1,
+      "title": "SpaceX, Cursor 600억달러 인수",
+      "summary": "SpaceX가 6월 16일 AI 코딩 도구 Cursor를 600억달러, 약 83조원 규모의 주식 교환으로 인수하기로 했다고 보도됐습니다. Cursor는 2022년 창업 이후 33억8천만달러를 조달한 개발자 도구 기업으로, 이번 거래는 AI 코딩 시장이 독립 SaaS에서 대형 인프라 플랫폼의 핵심 자산으로 이동하고 있음을 보여줍니다. KAIST MBA 독자에게는 개발 생산성 도구의 매출 배수보다 전략적 통제권과 컴퓨트 결합 가치가 더 크게 평가되는 사례로 읽힙니다.",
+      "eventDate": "2026-06-16",
+      "keywords": [
+        "SpaceX",
+        "Cursor",
+        "600억달러"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/06/16/spacex-cursor-60-billion-musk"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Fox, Roku 220억달러로 1억가구 확보",
+      "summary": "Fox가 6월 16일 Roku를 220억달러, 약 30조원 규모로 인수해 1억 가구에 이르는 TV 플랫폼 접점을 확보하려 한다고 보도됐습니다. 스트리밍 전쟁의 초점이 콘텐츠 제작비에서 운영체제, 광고 데이터, 홈 화면 유통권으로 옮겨가는 거래입니다. 한국 미디어와 커머스 기업에는 스마트TV와 FAST 채널을 단순 광고 재고가 아니라 고객 관계 인프라로 봐야 한다는 신호가 됩니다.",
+      "eventDate": "2026-06-16",
+      "keywords": [
+        "Fox",
+        "Roku",
+        "220억달러"
+      ],
+      "sources": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/streaming/950644/fox-roku-acquisition-lachlan-murdoch-fox-news-consolidation"
+        },
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "카카오톡, 챗GPT 호출 2경로 업데이트",
+      "summary": "카카오는 6월 16일 카카오톡 1대1 및 그룹 채팅방에서 챗GPT 챗봇을 바로 부를 수 있는 기능을 선보였다고 밝혔습니다. 사용자는 채팅방 메뉴의 챗봇 추가와 입력창의 @멘션 또는 툴바 버튼이라는 2개 경로로 챗GPT 답변을 호출할 수 있습니다. 국내 플랫폼 업계에는 AI가 별도 앱이 아니라 메신저 대화 흐름 안에서 배포될 때 사용 빈도와 결제 전환이 어떻게 바뀌는지가 핵심 실험이 됩니다.",
+      "eventDate": "2026-06-16",
+      "keywords": [
+        "카카오톡",
+        "챗GPT",
+        "2경로"
+      ],
+      "sources": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211791"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "SKT, AI 에이전트에 26사번 부여",
+      "summary": "SK텔레콤은 6월 16일 전사 AX 혁신 2.0을 시행하며 AI 에이전트에 26사번을 부여하는 운영 체계를 도입한다고 밝혔습니다. AI 에이전트는 소속, 직무, 권한을 가진 업무 주체로 관리되고 입사부터 퇴사까지 사람과 유사한 절차와 보안 접근 규정을 적용받습니다. 한국 기업에는 생성형 AI 도입의 다음 병목이 모델 성능보다 권한, 감사, 책임 소재를 다루는 조직 설계임을 보여주는 사례입니다.",
+      "eventDate": "2026-06-16",
+      "keywords": [
+        "SKT",
+        "AI 에이전트",
+        "26사번"
+      ],
+      "sources": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211779"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "SK그룹, 하이닉스로 시총 2000조원",
+      "summary": "SK그룹 시가총액은 6월 16일 SK하이닉스 주가 상승에 힘입어 2000조원을 넘어섰다고 연합뉴스가 보도했습니다. SK하이닉스는 이날 4.11% 오른 238만2000원에 마감했고 시가총액은 1697조6570억원으로 그룹 전체의 84.06%를 차지했습니다. AI 메모리 사이클이 그룹 지배구조, 투자 여력, 포트폴리오 재편 논의를 동시에 흔드는 자본시장 이벤트라는 점에서 토론 가치가 큽니다.",
+      "eventDate": "2026-06-16",
+      "keywords": [
+        "SK그룹",
+        "SK하이닉스",
+        "2000조원"
+      ],
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20260616112651008"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "삼성운용, AI반도체 ETF 7.15% 상승",
+      "summary": "삼성자산운용은 6월 16일 KODEX AI반도체TOP2플러스 ETF에 SK스퀘어를 새로 편입했다고 밝혔습니다. 이 ETF는 6월 정기변경 후 첫 거래일인 15일 7.15% 상승하며 삼성전자, SK하이닉스, 삼성전기, SK스퀘어 중심의 AI 반도체 포트폴리오를 강화했습니다. 개인 투자자와 기관 모두 AI 반도체 밸류체인을 단일 종목보다 지주사와 부품사까지 묶어 거래하려는 수요가 커지고 있음을 보여줍니다.",
+      "eventDate": "2026-06-16",
+      "keywords": [
+        "삼성운용",
+        "AI반도체 ETF",
+        "7.15%"
+      ],
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20260616035900008"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "삼성 준감위, 반도체 지방투자 2권역 논점",
+      "summary": "삼성 준법감시위원회는 6월 16일 삼성전자 반도체 지방 투자가 실제 투자로 이어지면 준감위 논의 사안이 될 수 있다고 밝혔습니다. 정부와 재계에서는 수도권에 집중된 삼성전자와 SK하이닉스의 반도체 생산 거점을 호남과 충청 등 2개 권역으로 넓히는 방안이 검토되고 있습니다. AI 메모리 호황이 설비투자 입지, 지역균형, 전력망, 인재 확보 문제와 한 묶음으로 다뤄진다는 점에서 산업정책 토론 소재가 됩니다.",
+      "eventDate": "2026-06-16",
+      "keywords": [
+        "삼성 준감위",
+        "반도체 지방투자",
+        "2권역"
+      ],
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/view/AKR20260616103000003"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "HPE·NVIDIA, AI팩토리 3종 확장",
+      "summary": "NVIDIA와 HPE는 6월 16일 HPE Discover Las Vegas에서 HPE AI Factory with NVIDIA를 에이전트 시대에 맞춰 확장한다고 발표했습니다. 새 구성에는 NVIDIA Vera CPU, NVIDIA Agent Toolkit, HPE Private Cloud AI가 포함돼 장기 실행 멀티에이전트의 모니터링과 거버넌스 운영을 겨냥합니다. 한국 제조와 금융 기업에는 퍼블릭 클라우드 API 사용을 넘어 사내 AI 팩토리를 어떻게 표준 제품으로 조달할지가 현실적인 의제가 되고 있습니다.",
+      "eventDate": "2026-06-16",
+      "keywords": [
+        "HPE",
+        "NVIDIA",
+        "3종"
+      ],
+      "sources": [
+        {
+          "name": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Google, Pixel·Android 17 AI 기능 공개",
+      "summary": "Google은 6월 16일 June Pixel Drop과 Android 17 관련 업데이트를 통해 Gemini 기반 개인화 기능과 Wear OS 7 기능을 순차 배포한다고 밝혔습니다. 업데이트는 크리에이터 기능, 기기 간 개인화, 선택 기기용 Gemini Intelligence를 묶어 모바일 운영체제의 AI 접점을 넓히는 방향입니다. 삼성전자와 국내 앱 사업자에게는 온디바이스 AI 경험이 OS 기본 기능으로 들어갈수록 차별화 지점이 하드웨어, 앱, 계정 데이터의 결합으로 이동한다는 신호입니다.",
+      "eventDate": "2026-06-16",
+      "keywords": [
+        "Google",
+        "Android 17",
+        "Wear OS 7"
+      ],
+      "sources": [
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/950936/google-android-17-wear-os-android-xr"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "Every, 4단계 에이전트 네이티브 개발법 공개",
+      "summary": "Every는 6월 16일 Hoop 팀이 고객 인터뷰 분석을 위해 자체 에이전트 네이티브 도구를 만들고 제품 개발 방식을 바꾼 사례를 소개했습니다. 이 글은 흩어진 노트 수집, 패턴 추출, 제품 가설 정리, 반복 학습이라는 4단계 워크플로를 소규모 팀이 직접 자동화한 과정을 다룹니다. KAIST MBA 독자에게는 AI 에이전트가 대기업 전용 플랫폼이 아니라 스타트업의 고객 발견과 제품 전략 루프를 재설계하는 운영 방식이라는 점이 실무적입니다.",
+      "eventDate": "2026-06-16",
+      "keywords": [
+        "Every",
+        "에이전트 네이티브",
+        "4단계"
+      ],
+      "sources": [
+        {
+          "name": "Every",
+          "url": "https://every.to/p/we-built-our-own-agent-native-tool-it-overhauled-how-we-build-software"
+        }
+      ]
+    }
+  ]
+}
