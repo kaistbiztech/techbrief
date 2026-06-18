@@ -1,0 +1,209 @@
+{
+  "id": "2026-06-19",
+  "volumeNumber": 9,
+  "publishedAt": "2026-06-19T06:30:00+09:00",
+  "dayOfWeek": "금",
+  "coverage": {
+    "from": "2026-06-18",
+    "to": "2026-06-18",
+    "label": "6월 18일 목요일"
+  },
+  "newsItems": [
+    {
+      "order": 1,
+      "title": "SK하이닉스, HBM4E 12단 샘플 공급",
+      "summary": "SK하이닉스는 6월 18일 차세대 AI용 D램 HBM4E 12단 샘플을 주요 고객사에 공급했다고 밝혔습니다. 이 제품은 핀당 최대 16Gbps 처리 속도와 48GB 용량을 구현하고 전력 효율을 20% 이상 개선했으며 열 저항도 17% 낮췄습니다. KAIST MBA 독자에게는 HBM 경쟁이 단순 주가 이슈를 넘어 AI 데이터센터 원가와 고객 락인 전략을 좌우하는 공급망 경쟁으로 바뀌고 있다는 점이 중요합니다.",
+      "eventDate": "2026-06-18",
+      "keywords": [
+        "HBM4E",
+        "12단 샘플",
+        "16Gbps",
+        "48GB"
+      ],
+      "sources": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20260618000019"
+        },
+        {
+          "name": "SK hynix Newsroom",
+          "url": "https://news.skhynix.com/12-layer-hbm4e-sample/"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "한국, 인니 4.2PF AI 슈퍼컴 가동",
+      "summary": "과학기술정보통신부와 외교부는 6월 18일 인도네시아 연구혁신청에서 한-아세안 디지털 협력 사업으로 구축한 4.2PF급 AI 학습용 슈퍼컴퓨터를 공식 가동했습니다. 이 사업은 2024년부터 2028년까지 1천만달러, 약 147억원 규모로 추진되며 현지 운영 인력 교육과 KISTI 플랫폼 현지화까지 포함합니다. 한국 AI 인프라가 장비 수출을 넘어 아세안 연구 생태계의 표준 운영 경험으로 확장되는 사례라는 점에서 산업 협력과 공공외교 모두 토론 가치가 큽니다.",
+      "eventDate": "2026-06-18",
+      "keywords": [
+        "4.2PF",
+        "한-아세안",
+        "1000만달러",
+        "147억원"
+      ],
+      "sources": [
+        {
+          "name": "연합뉴스",
+          "url": "https://www.yna.co.kr/amp/view/AKR20260618072200017"
+        },
+        {
+          "name": "디지털투데이",
+          "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=676096"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "과기부·Anthropic, AI 안전 MOU 1건 체결",
+      "summary": "과기정통부는 6월 18일 앤트로픽과 AI 안전성 확보 및 사이버보안 협력을 위한 MOU를 체결했다고 발표했습니다. 협력 범위에는 한국어 맥락의 모델 안전성 평가, 오남용 위험 분석, 자율형 AI 에이전트 레드팀 평가가 포함됐고 앤트로픽은 전날 서울 사무소도 공식 개소했습니다. 해외 모델 기업의 한국 진입이 영업 거점에서 안전 평가와 규제 협력으로 넓어졌다는 점에서 국내 기업의 조달, 보안, 거버넌스 전략에 직접 영향을 줍니다.",
+      "eventDate": "2026-06-18",
+      "keywords": [
+        "Anthropic",
+        "AI 안전",
+        "MOU 1건",
+        "서울 사무소"
+      ],
+      "sources": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211839"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "KAIST, COP 10만6000 액체냉각 개발",
+      "summary": "KAIST 김성진 기계공학과 교수팀과 이익진 AX학과 교수팀은 6월 18일 데이터센터 적용을 겨냥한 초고효율 액체 냉각 기술을 개발했다고 밝혔습니다. 실리콘 칩 내부 매니폴드 마이크로채널 구조를 최적화해 성능계수 COP 10만6000을 기록했으며 기존 세계 최고 수준보다 10배 이상 높다고 설명했습니다. AI 데이터센터의 병목이 전력과 냉각으로 이동한 상황에서 이 기술은 반도체, 설비, 클라우드 사업자의 투자 우선순위를 함께 바꿀 수 있는 국내 원천기술 후보입니다.",
+      "eventDate": "2026-06-18",
+      "keywords": [
+        "KAIST",
+        "COP 106000",
+        "액체냉각",
+        "10배"
+      ],
+      "sources": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211836"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "FERC, AI 데이터센터 30일 전력망 패스트트랙",
+      "summary": "미국 연방에너지규제위원회는 6월 18일 데이터센터와 대형 전력 사용자 연결을 빠르게 처리하라고 6개 주요 전력망 운영자에게 명령했습니다. 운영자들은 30일 안에 여유 발전 용량 보고서를 내고 60일 안에 요금 체계를 방어하거나 수정해야 하며, 대체 송전 기술과 자가발전 연계도 검토 대상에 올랐습니다. AI 인프라 경쟁이 GPU 확보에서 전력 접속권과 요금 규제 경쟁으로 번지는 신호라서 한국 데이터센터 투자자도 미국 사례를 선행 지표로 볼 필요가 있습니다.",
+      "eventDate": "2026-06-18",
+      "keywords": [
+        "FERC",
+        "30일",
+        "60일",
+        "AI 데이터센터"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/"
+        },
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/power-electricity-ai-plants-data-centers-grid-506e3d206871111f15c3c62fc5368be5"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "General Intuition, 3억달러·20억달러 논의",
+      "summary": "TechCrunch는 6월 18일 General Intuition이 약 20억달러, 약 2조9000억원 기업가치로 3억달러, 약 4400억원 투자 유치를 논의 중이라고 보도했습니다. 이 회사는 Medal의 연간 20억개 게임 영상과 월간 활성 이용자 1000만명 데이터를 활용해 월드모델과 체화 AI를 학습시키는 전략을 내세웁니다. 게임 데이터가 로봇과 시뮬레이션 AI의 학습 자산으로 재평가되는 흐름은 콘텐츠 플랫폼의 데이터 라이선싱과 방어 가능한 해자를 다시 묻게 합니다.",
+      "eventDate": "2026-06-18",
+      "keywords": [
+        "General Intuition",
+        "3억달러",
+        "20억달러",
+        "20억개 영상"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Adobe, Firefly AI 4개 앱 확대",
+      "summary": "Adobe는 6월 18일 Firefly AI 어시스턴트를 Premiere, Illustrator, InDesign, Frame.io로 확대한다고 밝혔습니다. 생성형 AI가 이미지 생성 도구를 넘어 영상 편집, 디자인, 문서 제작, 협업 검토까지 들어가면서 크리에이티브 소프트웨어의 사용 흐름이 명령형 에이전트 중심으로 재편되고 있습니다. 구독형 소프트웨어 기업에는 AI 기능이 가격 인상 근거인지 이탈 방어 수단인지가 핵심 논점이 됩니다.",
+      "eventDate": "2026-06-18",
+      "keywords": [
+        "Adobe",
+        "Firefly",
+        "4개 앱",
+        "Frame.io"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Waymo, 로보택시 4000대 리콜",
+      "summary": "TechCrunch는 6월 18일 Waymo가 고속도로 공사 구역 진입 문제를 막기 위해 로보택시 약 4000대를 리콜한다고 보도했습니다. Waymo는 자율주행 누적 주행거리가 1억7000만마일을 넘었다고 밝혔지만, 학교버스 주변 운행 문제와 아동 접촉 사고 조사에 이어 안전 운영 리스크가 다시 부각됐습니다. 자율주행 사업의 확장 속도는 기술 성능뿐 아니라 리콜, 보험, 규제 대응 비용을 얼마나 낮추느냐에 달려 있다는 점을 보여줍니다.",
+      "eventDate": "2026-06-18",
+      "keywords": [
+        "Waymo",
+        "4000대",
+        "1억7000만마일",
+        "로보택시"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones/"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Google·Microsoft, AI 백엔드 프로토콜 1건 제휴",
+      "summary": "The Information은 6월 18일 Google과 Microsoft가 Anthropic과 OpenAI 견제를 위해 AI 백엔드 소프트웨어 프로토콜 지원에 협력한다고 보도했습니다. 세부 내용은 유료 기사로 제한됐지만, 검색 결과에 공개된 핵심은 빅테크 2곳이 모델 경쟁뿐 아니라 개발자와 기업 인프라 계층의 표준 경쟁으로 전선을 넓히고 있다는 점입니다. KAIST MBA 독자에게는 LLM 시장의 승부가 모델 성능표보다 생태계 호환성, 클라우드 번들, 표준 주도권에서 갈릴 수 있다는 인사이트가 큽니다.",
+      "eventDate": "2026-06-18",
+      "keywords": [
+        "Google",
+        "Microsoft",
+        "프로토콜 1건",
+        "The Information"
+      ],
+      "sources": [
+        {
+          "name": "The Information",
+          "url": "https://www.theinformation.com/newsletters/applied-ai/google-microsoft-team-beat-back-anthropic-openai"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "Axios, Shazeer 27억달러 인재전쟁 분석",
+      "summary": "Axios Pro Rata는 6월 18일 Noam Shazeer가 Google을 떠나 OpenAI로 이동했다는 The Information 보도를 인용하며 AI 인재 전쟁의 비용 구조를 분석했습니다. Google은 2년 전 Character.AI 일부 팀을 데려오기 위해 27억달러, 약 4조원 규모 계약을 했지만 핵심 인재가 이동하면서 어크하이어 방식의 한계가 드러났다고 평가했습니다. AI 기업가치가 모델과 매출뿐 아니라 연구자 유지율에 의해 흔들릴 수 있다는 점에서 투자자와 전략 담당자가 함께 토론할 만한 뉴스레터형 인사이트입니다.",
+      "eventDate": "2026-06-18",
+      "keywords": [
+        "Axios Pro Rata",
+        "Noam Shazeer",
+        "27억달러",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/newsletters/axios-pro-rata-e2461638-847a-4f8c-8346-cbeab0152cd6"
+        },
+        {
+          "name": "The Information",
+          "url": "https://www.theinformation.com/"
+        }
+      ]
+    }
+  ]
+}
