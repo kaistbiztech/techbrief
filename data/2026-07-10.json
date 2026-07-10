@@ -1,0 +1,213 @@
+{
+  "id": "2026-07-10",
+  "volumeNumber": 10,
+  "publishedAt": "2026-07-10T06:30:00+09:00",
+  "dayOfWeek": "금",
+  "coverage": {
+    "from": "2026-07-09",
+    "to": "2026-07-09",
+    "label": "7월 9일 목요일"
+  },
+  "newsItems": [
+    {
+      "order": 1,
+      "title": "SK하이닉스, 나스닥 ADR 265억달러 조달",
+      "summary": "SK하이닉스가 7월 9일 미국 나스닥 ADR 상장에서 265억달러, 약 36조원대 자금을 조달하며 AI 메모리 투자 열기를 확인했습니다. 공모가는 주당 149달러로 알려졌고 청약 수요는 약 7배에 달해 HBM 공급망에 대한 글로벌 기관투자자 관심이 다시 커졌습니다. 한국 반도체 기업의 자본시장 선택지가 넓어지는 사건이어서, AI 인프라 사이클과 원화 자금조달 전략을 함께 논의할 만합니다.",
+      "eventDate": "2026-07-09",
+      "keywords": [
+        "SK하이닉스",
+        "265억달러",
+        "ADR",
+        "HBM"
+      ],
+      "sources": [
+        {
+          "name": "동아일보",
+          "url": "https://www.donga.com/news/Inter/article/all/20260709/134264883/1"
+        },
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/01bcadf5-53d6-4fca-9273-95ce96996c5f"
+        },
+        {
+          "name": "Investopedia",
+          "url": "https://www.investopedia.com/sk-hynix-s-u-s-listing-will-test-wall-street-s-appetite-for-turbulent-memory-stocks-skhy-12015009"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "OpenAI, GPT-5.6과 ChatGPT Work 1종 공개",
+      "summary": "OpenAI가 7월 9일 GPT-5.6 모델군과 장시간 업무를 처리하는 ChatGPT Work를 공개했습니다. 새 모델군은 Sol, Terra, Luna로 구성되고, ChatGPT Work는 데스크톱 앱에서 문서와 스프레드시트, 리서치 작업을 연결해 수행하는 에이전트형 제품으로 소개됐습니다. 기업용 AI가 대화형 도구에서 업무 운영체제 경쟁으로 이동하고 있어, SaaS 예산과 사내 자동화 전략을 재검토하게 만드는 발표입니다.",
+      "eventDate": "2026-07-09",
+      "keywords": [
+        "OpenAI",
+        "GPT-5.6",
+        "ChatGPT Work",
+        "에이전트"
+      ],
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/news/"
+        },
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Meta, Muse Spark 1.1 API로 AI 매출화 시작",
+      "summary": "Meta가 7월 9일 Muse Spark 1.1 모델을 개발자 API로 제공하며 AI 모델의 직접 매출화를 본격화했습니다. Axios는 Meta가 AI 인프라에 이미 2000억달러, 약 276조원 이상을 썼고 2028년까지 6000억달러, 약 828조원 추가 투자를 약속했다고 전했습니다. 오픈소스와 플랫폼 장악력을 앞세우던 Meta가 가격과 API 유통으로 방향을 틀면서, AI 모델 시장의 수익화 기준점이 새로 잡히고 있습니다.",
+      "eventDate": "2026-07-09",
+      "keywords": [
+        "Meta",
+        "Muse Spark 1.1",
+        "2000억달러",
+        "API"
+      ],
+      "sources": [
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/newsletters/axios-closer-41148026-0f2b-4191-b48f-84cd7859c9d0"
+        },
+        {
+          "name": "The Information",
+          "url": "https://www.theinformation.com/briefings/meta-courts-developers-new-muse-spark-1-1-model"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "카카오, 카나나 예약 기능까지 3단계 확장",
+      "summary": "카카오가 7월 9일 카카오톡 AI 서비스 카나나의 장소 탐색 기능을 여행과 문화, 생활 편의 영역으로 넓히고 예약 흐름까지 강화했습니다. 기존 식당 추천 중심 기능에서 실제 행동으로 이어지는 에이전트 경험을 키우는 방향이며, 카카오톡 안의 검색과 커머스 접점을 다시 묶으려는 시도입니다. 국내 플랫폼 기업이 AI를 별도 앱이 아니라 슈퍼앱 내부 전환율 개선 도구로 쓰는 사례라서 MBA 독자에게 실행 관점의 토론거리가 큽니다.",
+      "eventDate": "2026-07-09",
+      "keywords": [
+        "카카오",
+        "카나나",
+        "3단계",
+        "예약"
+      ],
+      "sources": [
+        {
+          "name": "조선비즈",
+          "url": "https://biz.chosun.com/it-science/ict/2026/07/09/EVO2XFIUQREBDKUH3NAHXLUY6Q/"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "펄스나인, DeepReal Studio 1종 첫 공개",
+      "summary": "펄스나인이 7월 9일 스위스 몽트뢰 재즈 페스티벌 새틀라이트 이벤트에서 AI 캐릭터 IP 제작 플랫폼 DeepReal Studio를 처음 공개한다고 밝혔습니다. 이 플랫폼은 시나리오 작성부터 영상 생성까지 AI로 연결하는 제작 환경을 표방하며, 회사는 AI.LOVE.JAZZ 행사에서 글로벌 창작자와 시장 반응을 확인합니다. 한국 AI 콘텐츠 기업이 음악과 영상 IP 제작 공정으로 해외 무대에 진입하는 사례라서, 생성형 AI의 수출 가능성을 살펴볼 만합니다.",
+      "eventDate": "2026-07-09",
+      "keywords": [
+        "펄스나인",
+        "DeepReal Studio",
+        "1종",
+        "AI.LOVE.JAZZ"
+      ],
+      "sources": [
+        {
+          "name": "AI타임스",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=212602"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "ZD넷, AI 메모리 3대 대안 HBM 이후 조명",
+      "summary": "ZD넷코리아가 7월 9일 AI 가속기 성능 경쟁이 HBM 일변도에서 벗어나 다양한 메모리 구조로 확장되고 있다고 짚었습니다. 기사에서는 대역폭과 전력, 비용 병목을 함께 풀기 위한 업계의 시도를 다루며, AI 서버 수요가 메모리 설계와 패키징 전략을 바꾸고 있다는 점을 강조했습니다. SK하이닉스와 삼성전자 중심의 HBM 논의가 다음 기술 포트폴리오 경쟁으로 넘어가는 신호라서 한국 반도체 투자자에게 의미가 큽니다.",
+      "eventDate": "2026-07-09",
+      "keywords": [
+        "ZD넷",
+        "AI 메모리",
+        "3대",
+        "HBM"
+      ],
+      "sources": [
+        {
+          "name": "지디넷코리아",
+          "url": "https://zdnet.co.kr/news/?from=pc&lstcode=0050"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Mistral AI, Robostral Navigate 1종 공개",
+      "summary": "Mistral AI가 7월 8일 현지시간 로봇 내비게이션 모델 Robostral Navigate를 공개했고, 전자신문이 7월 9일 이를 보도했습니다. 이 모델은 로봇이 물리 공간에서 이동 판단을 수행하도록 돕는 피지컬 AI 영역의 신제품으로, 유럽 AI 기업의 범용 언어모델 이후 전략을 보여줍니다. 제조와 물류 자동화가 강한 한국 기업에는 모델 성능보다 파트너십과 온디바이스 배치 가능성을 따져볼 만한 소식입니다.",
+      "eventDate": "2026-07-09",
+      "keywords": [
+        "Mistral AI",
+        "Robostral Navigate",
+        "1종",
+        "로봇"
+      ],
+      "sources": [
+        {
+          "name": "전자신문",
+          "url": "https://www.etnews.com/20260709000007"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "title": "TechCrunch, AI 인프라 1.5조달러 회수 질문",
+      "summary": "TechCrunch가 7월 9일 AI 인프라 지출이 2026년 기준 1조5000억달러, 약 2070조원 규모로 커졌다는 관점에서 수익 회수 문제를 제기했습니다. 분석은 3조달러, 약 4140조원에 달하는 가치 창출 질문을 던지며, 창업자들이 GPU와 데이터센터 투자를 실제 매출 제품으로 바꿀 수 있는지에 초점을 맞췄습니다. AI 붐의 다음 논쟁이 모델 성능보다 자본 효율과 제품 매출로 이동한다는 점에서 경영진과 투자자 모두에게 실용적인 읽을거리입니다.",
+      "eventDate": "2026-07-09",
+      "keywords": [
+        "TechCrunch",
+        "1.5조달러",
+        "3조달러",
+        "AI 인프라"
+      ],
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "title": "The Information, AI 교수 영입 4대 랩 경쟁 보도",
+      "summary": "The Information은 7월 9일 Anthropic, OpenAI, Meta, DeepMind가 대학 교수와 연구자를 끌어들이며 학계의 불안이 커지고 있다고 보도했습니다. 기사 제목은 4개 프런티어 랩의 인재 경쟁을 전면에 세웠고, 연구 인력 유출이 대학의 AI 교육과 장기 연구 역량에 부담을 준다는 맥락을 담았습니다. 한국 대학과 기업도 산학 협력, 교수 겸직, 연구실 인력 유지 문제를 겪고 있어 KAIST MBA 네트워크에서 토론하기 적합한 인사이트입니다.",
+      "eventDate": "2026-07-09",
+      "keywords": [
+        "The Information",
+        "4대 랩",
+        "AI 교수",
+        "인재"
+      ],
+      "sources": [
+        {
+          "name": "The Information",
+          "url": "https://www.theinformation.com/newsletters/ai-agenda/universities-fret-anthropic-openai-meta-deepmind-lure-professors"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "title": "국정원·KACS, AI 사이버안보 세미나 1회 개최",
+      "summary": "한국사이버안보학회와 국가정보원이 7월 9일 정부세종컨벤션센터에서 AI 시대 국가 사이버안보 세미나를 개최했습니다. 행사는 정보보호의 달과 핵테온 세종 AI·사이버보안 콘퍼런스와 연계됐고, 제로트러스트와 AI 융합보안, 사이버 회복력 강화가 주요 의제로 제시됐습니다. 기업 AI 도입이 빨라질수록 보안 거버넌스가 비용센터가 아니라 사업 연속성의 핵심 변수로 바뀐다는 점을 국내 사례로 보여줍니다.",
+      "eventDate": "2026-07-09",
+      "keywords": [
+        "국정원",
+        "KACS",
+        "1회",
+        "AI 사이버안보"
+      ],
+      "sources": [
+        {
+          "name": "IT조선",
+          "url": "https://it.chosun.com/news/articleView.html?idxno=2023092164686"
+        }
+      ]
+    }
+  ]
+}
